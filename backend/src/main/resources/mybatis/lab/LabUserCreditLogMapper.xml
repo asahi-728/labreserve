@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.project.lab.mapper.LabUserCreditLogMapper">
+
+    <resultMap type="LabUserCreditLog" id="LabUserCreditLogResult">
+        <result property="logId"       column="log_id"/>
+        <result property="userId"      column="user_id"/>
+        <result property="changeType"  column="change_type"/>
+        <result property="delta"       column="delta"/>
+        <result property="scoreBefore" column="score_before"/>
+        <result property="scoreAfter"  column="score_after"/>
+        <result property="reserveId"   column="reserve_id"/>
+        <result property="remark"      column="remark"/>
+        <result property="createTime"  column="create_time"/>
+    </resultMap>
+
+    <sql id="selectLabUserCreditLogVo">
+        select log_id, user_id, change_type, delta, score_before, score_after, reserve_id, remark, create_time
+        from lab_user_credit_log
+    </sql>
+
+    <select id="selectLabUserCreditLogByLogId" parameterType="Long" resultMap="LabUserCreditLogResult">
+        <include refid="selectLabUserCreditLogVo"/>
+        where log_id = #{logId}
+    </select>
+
+    <select id="selectLabUserCreditLogList" parameterType="LabUserCreditLog" resultMap="LabUserCreditLogResult">
+        <include refid="selectLabUserCreditLogVo"/>
+        <where>
+            <if test="userId != null">
+                and user_id = #{userId}
+            </if>
+            <if test="changeType != null and changeType != ''">
+                and change_type = #{changeType}
+            </if>
+            <if test="reserveId != null">
+                and reserve_id = #{reserveId}
+            </if>
+        </where>
+        order by create_time desc
+    </select>
+
+    <select id="selectLogsByUserId" parameterType="Long" resultMap="LabUserCreditLogResult">
+        <include refid="selectLabUserCreditLogVo"/>
+        where user_id = #{userId}
+        order by create_time desc
+    </select>
+
+    <insert id="insertLabUserCreditLog" parameterType="LabUserCreditLog" useGeneratedKeys="true" keyProperty="logId">
+        insert into lab_user_credit_log
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="userId != null">user_id,</if>
+            <if test="changeType != null and changeType != ''">change_type,</if>
+            <if test="delta != null">delta,</if>
+            <if test="scoreBefore != null">score_before,</if>
+            <if test="scoreAfter != null">score_after,</if>
+            <if test="reserveId != null">reserve_id,</if>
+            <if test="remark != null">remark,</if>
+            <if test="createTime != null">create_time,</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="userId != null">#{userId},</if>
+            <if test="changeType != null and changeType != ''">#{changeType},</if>
+            <if test="delta != null">#{delta},</if>
+            <if test="scoreBefore != null">#{scoreBefore},</if>
+            <if test="scoreAfter != null">#{scoreAfter},</if>
+            <if test="reserveId != null">#{reserveId},</if>
+            <if test="remark != null">#{remark},</if>
+            <if test="createTime != null">#{createTime},</if>
+        </trim>
+    </insert>
+
+    <delete id="deleteLabUserCreditLogByLogId" parameterType="Long">
+        delete from lab_user_credit_log where log_id = #{logId}
+    </delete>
+
+    <delete id="deleteLabUserCreditLogByLogIds" parameterType="String">
+        delete from lab_user_credit_log where log_id in
+        <foreach item="logId" collection="array" open="(" separator="," close=")">
+            #{logId}
+        </foreach>
+    </delete>
+
+</mapper>

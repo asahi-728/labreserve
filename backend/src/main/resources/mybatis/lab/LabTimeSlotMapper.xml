@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.project.lab.mapper.LabTimeSlotMapper">
+    
+    <resultMap type="LabTimeSlot" id="LabTimeSlotResult">
+        <result property="slotId"    column="slot_id"    />
+        <result property="deviceId"    column="device_id"    />
+        <result property="slotDate"    column="slot_date"    />
+        <result property="startTime"    column="start_time"    />
+        <result property="endTime"    column="end_time"    />
+        <result property="isAvailable"    column="is_available"    />
+        <result property="createTime"    column="create_time"    />
+    </resultMap>
+
+    <sql id="selectLabTimeSlotVo">
+        select slot_id, device_id, slot_date, start_time, end_time, is_available, create_time from lab_time_slot
+    </sql>
+
+    <select id="selectLabTimeSlotList" parameterType="LabTimeSlot" resultMap="LabTimeSlotResult">
+        <include refid="selectLabTimeSlotVo"/>
+        <where>  
+            <if test="deviceId != null "> and device_id = #{deviceId}</if>
+            <if test="slotDate != null "> and slot_date = #{slotDate}</if>
+            <if test="startTime != null "> and start_time = #{startTime}</if>
+            <if test="endTime != null "> and end_time = #{endTime}</if>
+            <if test="isAvailable != null  and isAvailable != ''"> and is_available = #{isAvailable}</if>
+        </where>
+    </select>
+    
+    <select id="selectLabTimeSlotBySlotId" parameterType="Long" resultMap="LabTimeSlotResult">
+        <include refid="selectLabTimeSlotVo"/>
+        where slot_id = #{slotId}
+    </select>
+
+    <insert id="insertLabTimeSlot" parameterType="LabTimeSlot" useGeneratedKeys="true" keyProperty="slotId">
+        insert into lab_time_slot
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="deviceId != null">device_id,</if>
+            <if test="slotDate != null">slot_date,</if>
+            <if test="startTime != null">start_time,</if>
+            <if test="endTime != null">end_time,</if>
+            <if test="isAvailable != null">is_available,</if>
+            <if test="createTime != null">create_time,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="deviceId != null">#{deviceId},</if>
+            <if test="slotDate != null">#{slotDate},</if>
+            <if test="startTime != null">#{startTime},</if>
+            <if test="endTime != null">#{endTime},</if>
+            <if test="isAvailable != null">#{isAvailable},</if>
+            <if test="createTime != null">#{createTime},</if>
+         </trim>
+    </insert>
+
+    <update id="updateLabTimeSlot" parameterType="LabTimeSlot">
+        update lab_time_slot
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="deviceId != null">device_id = #{deviceId},</if>
+            <if test="slotDate != null">slot_date = #{slotDate},</if>
+            <if test="startTime != null">start_time = #{startTime},</if>
+            <if test="endTime != null">end_time = #{endTime},</if>
+            <if test="isAvailable != null">is_available = #{isAvailable},</if>
+            <if test="createTime != null">create_time = #{createTime},</if>
+        </trim>
+        where slot_id = #{slotId}
+    </update>
+
+    <delete id="deleteLabTimeSlotBySlotId" parameterType="Long">
+        delete from lab_time_slot where slot_id = #{slotId}
+    </delete>
+
+    <delete id="deleteLabTimeSlotBySlotIds" parameterType="String">
+        delete from lab_time_slot where slot_id in 
+        <foreach item="slotId" collection="array" open="(" separator="," close=")">
+            #{slotId}
+        </foreach>
+    </delete>
+    
+    <insert id="batchInsertLabTimeSlot" parameterType="java.util.List">
+        insert into lab_time_slot (device_id, slot_date, start_time, end_time, is_available, create_time, create_by)
+        values
+        <foreach collection="list" item="item" separator=",">
+            (#{item.deviceId}, #{item.slotDate}, #{item.startTime}, #{item.endTime}, #{item.isAvailable}, #{item.createTime}, #{item.createBy})
+        </foreach>
+    </insert>
+</mapper>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.project.lab.mapper.LabDeviceCategoryMapper">
+    
+    <resultMap type="LabDeviceCategory" id="LabDeviceCategoryResult">
+        <result property="categoryId"    column="category_id"    />
+        <result property="categoryName"    column="category_name"    />
+        <result property="parentId"    column="parent_id"    />
+        <result property="sort"    column="sort"    />
+        <result property="status"    column="status"    />
+        <result property="createBy"    column="create_by"    />
+        <result property="createTime"    column="create_time"    />
+        <result property="updateBy"    column="update_by"    />
+        <result property="updateTime"    column="update_time"    />
+        <result property="remark"    column="remark"    />
+    </resultMap>
+
+    <sql id="selectLabDeviceCategoryVo">
+        select category_id, category_name, parent_id, sort, status, create_by, create_time, update_by, update_time, remark from lab_device_category
+    </sql>
+
+    <select id="selectLabDeviceCategoryList" parameterType="LabDeviceCategory" resultMap="LabDeviceCategoryResult">
+        <include refid="selectLabDeviceCategoryVo"/>
+        <where>  
+            <if test="categoryName != null  and categoryName != ''"> and category_name like concat('%', #{categoryName}, '%')</if>
+            <if test="parentId != null "> and parent_id = #{parentId}</if>
+            <if test="sort != null "> and sort = #{sort}</if>
+            <if test="status != null  and status != ''"> and status = #{status}</if>
+        </where>
+    </select>
+    
+    <select id="selectLabDeviceCategoryByCategoryId" parameterType="Long" resultMap="LabDeviceCategoryResult">
+        <include refid="selectLabDeviceCategoryVo"/>
+        where category_id = #{categoryId}
+    </select>
+
+    <insert id="insertLabDeviceCategory" parameterType="LabDeviceCategory" useGeneratedKeys="true" keyProperty="categoryId">
+        insert into lab_device_category
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="categoryName != null and categoryName != ''">category_name,</if>
+            <if test="parentId != null">parent_id,</if>
+            <if test="sort != null">sort,</if>
+            <if test="status != null">status,</if>
+            <if test="createBy != null">create_by,</if>
+            <if test="createTime != null">create_time,</if>
+            <if test="updateBy != null">update_by,</if>
+            <if test="updateTime != null">update_time,</if>
+            <if test="remark != null">remark,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="categoryName != null and categoryName != ''">#{categoryName},</if>
+            <if test="parentId != null">#{parentId},</if>
+            <if test="sort != null">#{sort},</if>
+            <if test="status != null">#{status},</if>
+            <if test="createBy != null">#{createBy},</if>
+            <if test="createTime != null">#{createTime},</if>
+            <if test="updateBy != null">#{updateBy},</if>
+            <if test="updateTime != null">#{updateTime},</if>
+            <if test="remark != null">#{remark},</if>
+         </trim>
+    </insert>
+
+    <update id="updateLabDeviceCategory" parameterType="LabDeviceCategory">
+        update lab_device_category
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="categoryName != null and categoryName != ''">category_name = #{categoryName},</if>
+            <if test="parentId != null">parent_id = #{parentId},</if>
+            <if test="sort != null">sort = #{sort},</if>
+            <if test="status != null">status = #{status},</if>
+            <if test="createBy != null">create_by = #{createBy},</if>
+            <if test="createTime != null">create_time = #{createTime},</if>
+            <if test="updateBy != null">update_by = #{updateBy},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+            <if test="remark != null">remark = #{remark},</if>
+        </trim>
+        where category_id = #{categoryId}
+    </update>
+
+    <delete id="deleteLabDeviceCategoryByCategoryId" parameterType="Long">
+        delete from lab_device_category where category_id = #{categoryId}
+    </delete>
+
+    <delete id="deleteLabDeviceCategoryByCategoryIds" parameterType="String">
+        delete from lab_device_category where category_id in 
+        <foreach item="categoryId" collection="array" open="(" separator="," close=")">
+            #{categoryId}
+        </foreach>
+    </delete>
+</mapper>

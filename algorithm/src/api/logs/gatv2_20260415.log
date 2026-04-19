@@ -1,0 +1,949 @@
+2026-04-15 16:35:43 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 16:35:43 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 16:35:47 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 16:35:47 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 16:39:28 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 16:39:28 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 16:39:32 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 16:39:32 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 16:41:23 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 16:41:23 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 16:41:27 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 16:41:27 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 16:42:48 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 16:42:48 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 16:42:52 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 16:42:52 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 16:54:47 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 16:54:47 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 16:54:51 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 16:54:51 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 16:56:42 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 16:56:42 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 16:56:45 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 16:56:45 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 16:56:45 | INFO     | GATv2:80 | ============================================================
+2026-04-15 16:56:45 | INFO     | GATv2:80 | 实验室智能算法服务启动中...
+2026-04-15 16:56:45 | INFO     | GATv2:80 | ============================================================
+2026-04-15 16:56:45 | INFO     | GATv2:80 | 正在初始化GATv2推荐器...
+2026-04-15 16:56:45 | INFO     | GATv2:80 | GATv2数据文件不存在，将在首次请求时加载
+2026-04-15 16:56:45 | INFO     | GATv2:80 | 正在初始化PPO调度器...
+2026-04-15 16:56:45 | WARNING  | GATv2:84 | 启动时初始化PPO调度器失败: module 'src.algorithms.ppo.scheduler' has no attribute 'data_exists'
+2026-04-15 16:56:45 | INFO     | GATv2:80 | 将在首次请求时初始化
+2026-04-15 16:56:45 | INFO     | GATv2:80 | ============================================================
+2026-04-15 16:56:45 | INFO     | GATv2:80 | 实验室智能算法服务启动完成！
+2026-04-15 16:56:45 | INFO     | GATv2:80 | API文档地址: http://0.0.0.0:8000/docs
+2026-04-15 16:56:45 | INFO     | GATv2:80 | ============================================================
+2026-04-15 16:57:13 | INFO     | GATv2:80 | 实验室智能算法服务正在关闭...
+2026-04-15 16:57:13 | INFO     | GATv2:80 | 服务已停止
+2026-04-15 16:57:20 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 16:57:20 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 16:57:24 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 16:57:24 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 16:59:08 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 16:59:08 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 16:59:11 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 16:59:11 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 17:00:01 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 17:00:01 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 17:00:05 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 17:00:05 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 17:01:42 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 17:01:42 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 17:01:42 | INFO     | GATv2:80 | ============================================================
+2026-04-15 17:01:42 | INFO     | GATv2:80 | 实验室智能算法服务启动中...
+2026-04-15 17:01:42 | INFO     | GATv2:80 | ============================================================
+2026-04-15 17:01:42 | INFO     | GATv2:80 | 正在初始化GATv2推荐器...
+2026-04-15 17:01:42 | INFO     | GATv2:80 | GATv2数据文件不存在，将在首次请求时加载
+2026-04-15 17:01:42 | INFO     | GATv2:80 | 正在初始化PPO调度器...
+2026-04-15 17:01:42 | WARNING  | GATv2:84 | 启动时初始化PPO调度器失败: module 'src.algorithms.ppo.scheduler' has no attribute 'data_exists'
+2026-04-15 17:01:42 | INFO     | GATv2:80 | 将在首次请求时初始化
+2026-04-15 17:01:42 | INFO     | GATv2:80 | ============================================================
+2026-04-15 17:01:42 | INFO     | GATv2:80 | 实验室智能算法服务启动完成！
+2026-04-15 17:01:42 | INFO     | GATv2:80 | API文档地址: http://0.0.0.0:8000/docs
+2026-04-15 17:01:42 | INFO     | GATv2:80 | ============================================================
+2026-04-15 17:02:32 | INFO     | GATv2:80 | 推荐器未初始化，正在初始化...
+2026-04-15 17:02:32 | INFO     | GATv2:80 | 正在初始化GATv2推荐器...
+2026-04-15 17:02:32 | INFO     | GATv2:80 | 开始从数据库加载图数据...
+2026-04-15 17:02:32 | INFO     | GATv2:80 | 加载用户数据...
+2026-04-15 17:02:32 | ERROR    | GATv2:88 | 数据库操作失败，已回滚: (1054, "Unknown column 'uc.reserve_count' in 'field list'")
+2026-04-15 17:02:32 | ERROR    | GATv2:88 | 数据库连接失败: (1054, "Unknown column 'uc.reserve_count' in 'field list'")
+2026-04-15 17:02:32 | ERROR    | GATv2:96 | 从数据库加载数据失败: (1054, "Unknown column 'uc.reserve_count' in 'field list'")
+Traceback (most recent call last):
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\data_loader.py"[0m, line [35m38[0m, in [35mload_from_database[0m
+    [31mself._load_user_data[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\data_loader.py"[0m, line [35m72[0m, in [35m_load_user_data[0m
+    user_data = db.execute_query(sql, dict_cursor=True)
+  File [35m"D:\file\4\labreserve\algorithm\src\utils\database.py"[0m, line [35m79[0m, in [35mexecute_query[0m
+    [31mcursor.execute[0m[1;31m(sql, params or ())[0m
+    [31m~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\cursors.py"[0m, line [35m153[0m, in [35mexecute[0m
+    result = self._query(query)
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\cursors.py"[0m, line [35m322[0m, in [35m_query[0m
+    [31mconn.query[0m[1;31m(q)[0m
+    [31m~~~~~~~~~~[0m[1;31m^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m575[0m, in [35mquery[0m
+    self._affected_rows = [31mself._read_query_result[0m[1;31m(unbuffered=unbuffered)[0m
+                          [31m~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m826[0m, in [35m_read_query_result[0m
+    [31mresult.read[0m[1;31m()[0m
+    [31m~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m1203[0m, in [35mread[0m
+    first_packet = self.connection._read_packet()
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m782[0m, in [35m_read_packet[0m
+    [31mpacket.raise_for_error[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\protocol.py"[0m, line [35m219[0m, in [35mraise_for_error[0m
+    [31merr.raise_mysql_exception[0m[1;31m(self._data)[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\err.py"[0m, line [35m150[0m, in [35mraise_mysql_exception[0m
+    raise errorclass(errno, errval)
+[1;35mpymysql.err.OperationalError[0m: [35m(1054, "Unknown column 'uc.reserve_count' in 'field list'")[0m
+2026-04-15 17:02:32 | ERROR    | GATv2:96 | GATv2推荐器初始化失败: (1054, "Unknown column 'uc.reserve_count' in 'field list'")
+Traceback (most recent call last):
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\recommender.py"[0m, line [35m44[0m, in [35minitialize[0m
+    self.graph_data = [31mself.data_loader.load_from_database[0m[1;31m()[0m
+                      [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\data_loader.py"[0m, line [35m38[0m, in [35mload_from_database[0m
+    [31mself._load_user_data[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\data_loader.py"[0m, line [35m72[0m, in [35m_load_user_data[0m
+    user_data = db.execute_query(sql, dict_cursor=True)
+  File [35m"D:\file\4\labreserve\algorithm\src\utils\database.py"[0m, line [35m79[0m, in [35mexecute_query[0m
+    [31mcursor.execute[0m[1;31m(sql, params or ())[0m
+    [31m~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\cursors.py"[0m, line [35m153[0m, in [35mexecute[0m
+    result = self._query(query)
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\cursors.py"[0m, line [35m322[0m, in [35m_query[0m
+    [31mconn.query[0m[1;31m(q)[0m
+    [31m~~~~~~~~~~[0m[1;31m^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m575[0m, in [35mquery[0m
+    self._affected_rows = [31mself._read_query_result[0m[1;31m(unbuffered=unbuffered)[0m
+                          [31m~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m826[0m, in [35m_read_query_result[0m
+    [31mresult.read[0m[1;31m()[0m
+    [31m~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m1203[0m, in [35mread[0m
+    first_packet = self.connection._read_packet()
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m782[0m, in [35m_read_packet[0m
+    [31mpacket.raise_for_error[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\protocol.py"[0m, line [35m219[0m, in [35mraise_for_error[0m
+    [31merr.raise_mysql_exception[0m[1;31m(self._data)[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\err.py"[0m, line [35m150[0m, in [35mraise_mysql_exception[0m
+    raise errorclass(errno, errval)
+[1;35mpymysql.err.OperationalError[0m: [35m(1054, "Unknown column 'uc.reserve_count' in 'field list'")[0m
+2026-04-15 17:02:48 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 17:02:48 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 17:02:48 | INFO     | GATv2:80 | ============================================================
+2026-04-15 17:02:48 | INFO     | GATv2:80 | 实验室智能算法服务启动中...
+2026-04-15 17:02:48 | INFO     | GATv2:80 | ============================================================
+2026-04-15 17:02:48 | INFO     | GATv2:80 | 正在初始化GATv2推荐器...
+2026-04-15 17:02:48 | INFO     | GATv2:80 | GATv2数据文件不存在，将在首次请求时加载
+2026-04-15 17:02:48 | INFO     | GATv2:80 | 正在初始化PPO调度器...
+2026-04-15 17:02:48 | WARNING  | GATv2:84 | 启动时初始化PPO调度器失败: module 'src.algorithms.ppo.scheduler' has no attribute 'data_exists'
+2026-04-15 17:02:48 | INFO     | GATv2:80 | 将在首次请求时初始化
+2026-04-15 17:02:48 | INFO     | GATv2:80 | ============================================================
+2026-04-15 17:02:48 | INFO     | GATv2:80 | 实验室智能算法服务启动完成！
+2026-04-15 17:02:48 | INFO     | GATv2:80 | API文档地址: http://0.0.0.0:8000/docs
+2026-04-15 17:02:48 | INFO     | GATv2:80 | ============================================================
+2026-04-15 17:03:08 | INFO     | GATv2:80 | 开始后台训练任务...
+2026-04-15 17:03:08 | INFO     | GATv2:80 | 正在初始化GATv2推荐器...
+2026-04-15 17:03:08 | INFO     | GATv2:80 | 开始从数据库加载图数据...
+2026-04-15 17:03:08 | INFO     | GATv2:80 | 加载用户数据...
+2026-04-15 17:03:08 | ERROR    | GATv2:88 | 数据库操作失败，已回滚: (1054, "Unknown column 'uc.reserve_count' in 'field list'")
+2026-04-15 17:03:08 | ERROR    | GATv2:88 | 数据库连接失败: (1054, "Unknown column 'uc.reserve_count' in 'field list'")
+2026-04-15 17:03:08 | ERROR    | GATv2:96 | 从数据库加载数据失败: (1054, "Unknown column 'uc.reserve_count' in 'field list'")
+Traceback (most recent call last):
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\data_loader.py"[0m, line [35m38[0m, in [35mload_from_database[0m
+    [31mself._load_user_data[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\data_loader.py"[0m, line [35m72[0m, in [35m_load_user_data[0m
+    user_data = db.execute_query(sql, dict_cursor=True)
+  File [35m"D:\file\4\labreserve\algorithm\src\utils\database.py"[0m, line [35m79[0m, in [35mexecute_query[0m
+    [31mcursor.execute[0m[1;31m(sql, params or ())[0m
+    [31m~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\cursors.py"[0m, line [35m153[0m, in [35mexecute[0m
+    result = self._query(query)
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\cursors.py"[0m, line [35m322[0m, in [35m_query[0m
+    [31mconn.query[0m[1;31m(q)[0m
+    [31m~~~~~~~~~~[0m[1;31m^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m575[0m, in [35mquery[0m
+    self._affected_rows = [31mself._read_query_result[0m[1;31m(unbuffered=unbuffered)[0m
+                          [31m~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m826[0m, in [35m_read_query_result[0m
+    [31mresult.read[0m[1;31m()[0m
+    [31m~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m1203[0m, in [35mread[0m
+    first_packet = self.connection._read_packet()
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m782[0m, in [35m_read_packet[0m
+    [31mpacket.raise_for_error[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\protocol.py"[0m, line [35m219[0m, in [35mraise_for_error[0m
+    [31merr.raise_mysql_exception[0m[1;31m(self._data)[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\err.py"[0m, line [35m150[0m, in [35mraise_mysql_exception[0m
+    raise errorclass(errno, errval)
+[1;35mpymysql.err.OperationalError[0m: [35m(1054, "Unknown column 'uc.reserve_count' in 'field list'")[0m
+2026-04-15 17:03:08 | ERROR    | GATv2:96 | GATv2推荐器初始化失败: (1054, "Unknown column 'uc.reserve_count' in 'field list'")
+Traceback (most recent call last):
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\recommender.py"[0m, line [35m44[0m, in [35minitialize[0m
+    self.graph_data = [31mself.data_loader.load_from_database[0m[1;31m()[0m
+                      [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\data_loader.py"[0m, line [35m38[0m, in [35mload_from_database[0m
+    [31mself._load_user_data[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\data_loader.py"[0m, line [35m72[0m, in [35m_load_user_data[0m
+    user_data = db.execute_query(sql, dict_cursor=True)
+  File [35m"D:\file\4\labreserve\algorithm\src\utils\database.py"[0m, line [35m79[0m, in [35mexecute_query[0m
+    [31mcursor.execute[0m[1;31m(sql, params or ())[0m
+    [31m~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\cursors.py"[0m, line [35m153[0m, in [35mexecute[0m
+    result = self._query(query)
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\cursors.py"[0m, line [35m322[0m, in [35m_query[0m
+    [31mconn.query[0m[1;31m(q)[0m
+    [31m~~~~~~~~~~[0m[1;31m^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m575[0m, in [35mquery[0m
+    self._affected_rows = [31mself._read_query_result[0m[1;31m(unbuffered=unbuffered)[0m
+                          [31m~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m826[0m, in [35m_read_query_result[0m
+    [31mresult.read[0m[1;31m()[0m
+    [31m~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m1203[0m, in [35mread[0m
+    first_packet = self.connection._read_packet()
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m782[0m, in [35m_read_packet[0m
+    [31mpacket.raise_for_error[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\protocol.py"[0m, line [35m219[0m, in [35mraise_for_error[0m
+    [31merr.raise_mysql_exception[0m[1;31m(self._data)[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\err.py"[0m, line [35m150[0m, in [35mraise_mysql_exception[0m
+    raise errorclass(errno, errval)
+[1;35mpymysql.err.OperationalError[0m: [35m(1054, "Unknown column 'uc.reserve_count' in 'field list'")[0m
+2026-04-15 17:03:08 | INFO     | GATv2:80 | 后台训练任务完成
+2026-04-15 17:06:48 | INFO     | GATv2:80 | 调度器未初始化，正在初始化...
+2026-04-15 17:06:48 | ERROR    | GATv2:96 | 调度失败: module 'src.algorithms.ppo.scheduler' has no attribute 'initialize'
+Traceback (most recent call last):
+  File [35m"D:\file\4\labreserve\algorithm\src\api\routes\ppo.py"[0m, line [35m100[0m, in [35mdispatch_single[0m
+    success = [1;31mscheduler.initialize[0m()
+              [1;31m^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mAttributeError[0m: [35mmodule 'src.algorithms.ppo.scheduler' has no attribute 'initialize'. Did you mean: 'is_initialized'?[0m
+2026-04-15 17:06:59 | INFO     | GATv2:80 | 调度器未初始化，正在初始化...
+2026-04-15 17:06:59 | ERROR    | GATv2:96 | 批量调度失败: module 'src.algorithms.ppo.scheduler' has no attribute 'initialize'
+Traceback (most recent call last):
+  File [35m"D:\file\4\labreserve\algorithm\src\api\routes\ppo.py"[0m, line [35m134[0m, in [35mdispatch_batch[0m
+    success = [1;31mscheduler.initialize[0m()
+              [1;31m^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mAttributeError[0m: [35mmodule 'src.algorithms.ppo.scheduler' has no attribute 'initialize'. Did you mean: 'is_initialized'?[0m
+2026-04-15 17:07:01 | INFO     | GATv2:80 | 开始后台训练任务...
+2026-04-15 17:07:01 | ERROR    | GATv2:96 | 后台训练任务失败: module 'src.algorithms.ppo.scheduler' has no attribute 'initialize'
+Traceback (most recent call last):
+  File [35m"D:\file\4\labreserve\algorithm\src\api\routes\ppo.py"[0m, line [35m204[0m, in [35m_train_model_task[0m
+    [1;31mscheduler.initialize[0m(force_reload=True)
+    [1;31m^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mAttributeError[0m: [35mmodule 'src.algorithms.ppo.scheduler' has no attribute 'initialize'. Did you mean: 'is_initialized'?[0m
+2026-04-15 17:17:13 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 17:17:13 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 17:17:13 | INFO     | GATv2:80 | ============================================================
+2026-04-15 17:17:13 | INFO     | GATv2:80 | 实验室智能算法服务启动中...
+2026-04-15 17:17:13 | INFO     | GATv2:80 | ============================================================
+2026-04-15 17:17:13 | INFO     | GATv2:80 | 正在初始化GATv2推荐器...
+2026-04-15 17:17:13 | INFO     | GATv2:80 | GATv2数据文件不存在，将在首次请求时加载
+2026-04-15 17:17:13 | INFO     | GATv2:80 | 正在初始化PPO调度器...
+2026-04-15 17:17:13 | INFO     | GATv2:80 | PPO模型文件不存在，将在首次请求时训练
+2026-04-15 17:17:13 | INFO     | GATv2:80 | ============================================================
+2026-04-15 17:17:13 | INFO     | GATv2:80 | 实验室智能算法服务启动完成！
+2026-04-15 17:17:13 | INFO     | GATv2:80 | API文档地址: http://0.0.0.0:8000/docs
+2026-04-15 17:17:13 | INFO     | GATv2:80 | ============================================================
+2026-04-15 17:26:45 | INFO     | GATv2:80 | 开始后台训练任务...
+2026-04-15 17:26:45 | INFO     | GATv2:80 | 正在初始化GATv2推荐器...
+2026-04-15 17:26:45 | INFO     | GATv2:80 | 开始从数据库加载图数据...
+2026-04-15 17:26:45 | INFO     | GATv2:80 | 加载用户数据...
+2026-04-15 17:26:45 | ERROR    | GATv2:88 | 数据库操作失败，已回滚: (1054, "Unknown column 'u.age' in 'field list'")
+2026-04-15 17:26:45 | ERROR    | GATv2:88 | 数据库连接失败: (1054, "Unknown column 'u.age' in 'field list'")
+2026-04-15 17:26:45 | ERROR    | GATv2:96 | 从数据库加载数据失败: (1054, "Unknown column 'u.age' in 'field list'")
+Traceback (most recent call last):
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\data_loader.py"[0m, line [35m38[0m, in [35mload_from_database[0m
+    [31mself._load_user_data[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\data_loader.py"[0m, line [35m71[0m, in [35m_load_user_data[0m
+    user_data = db.execute_query(sql, dict_cursor=True)
+  File [35m"D:\file\4\labreserve\algorithm\src\utils\database.py"[0m, line [35m79[0m, in [35mexecute_query[0m
+    [31mcursor.execute[0m[1;31m(sql, params or ())[0m
+    [31m~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\cursors.py"[0m, line [35m153[0m, in [35mexecute[0m
+    result = self._query(query)
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\cursors.py"[0m, line [35m322[0m, in [35m_query[0m
+    [31mconn.query[0m[1;31m(q)[0m
+    [31m~~~~~~~~~~[0m[1;31m^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m575[0m, in [35mquery[0m
+    self._affected_rows = [31mself._read_query_result[0m[1;31m(unbuffered=unbuffered)[0m
+                          [31m~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m826[0m, in [35m_read_query_result[0m
+    [31mresult.read[0m[1;31m()[0m
+    [31m~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m1203[0m, in [35mread[0m
+    first_packet = self.connection._read_packet()
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m782[0m, in [35m_read_packet[0m
+    [31mpacket.raise_for_error[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\protocol.py"[0m, line [35m219[0m, in [35mraise_for_error[0m
+    [31merr.raise_mysql_exception[0m[1;31m(self._data)[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\err.py"[0m, line [35m150[0m, in [35mraise_mysql_exception[0m
+    raise errorclass(errno, errval)
+[1;35mpymysql.err.OperationalError[0m: [35m(1054, "Unknown column 'u.age' in 'field list'")[0m
+2026-04-15 17:26:45 | ERROR    | GATv2:96 | GATv2推荐器初始化失败: (1054, "Unknown column 'u.age' in 'field list'")
+Traceback (most recent call last):
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\recommender.py"[0m, line [35m44[0m, in [35minitialize[0m
+    self.graph_data = [31mself.data_loader.load_from_database[0m[1;31m()[0m
+                      [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\data_loader.py"[0m, line [35m38[0m, in [35mload_from_database[0m
+    [31mself._load_user_data[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\data_loader.py"[0m, line [35m71[0m, in [35m_load_user_data[0m
+    user_data = db.execute_query(sql, dict_cursor=True)
+  File [35m"D:\file\4\labreserve\algorithm\src\utils\database.py"[0m, line [35m79[0m, in [35mexecute_query[0m
+    [31mcursor.execute[0m[1;31m(sql, params or ())[0m
+    [31m~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\cursors.py"[0m, line [35m153[0m, in [35mexecute[0m
+    result = self._query(query)
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\cursors.py"[0m, line [35m322[0m, in [35m_query[0m
+    [31mconn.query[0m[1;31m(q)[0m
+    [31m~~~~~~~~~~[0m[1;31m^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m575[0m, in [35mquery[0m
+    self._affected_rows = [31mself._read_query_result[0m[1;31m(unbuffered=unbuffered)[0m
+                          [31m~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m826[0m, in [35m_read_query_result[0m
+    [31mresult.read[0m[1;31m()[0m
+    [31m~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m1203[0m, in [35mread[0m
+    first_packet = self.connection._read_packet()
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m782[0m, in [35m_read_packet[0m
+    [31mpacket.raise_for_error[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\protocol.py"[0m, line [35m219[0m, in [35mraise_for_error[0m
+    [31merr.raise_mysql_exception[0m[1;31m(self._data)[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\err.py"[0m, line [35m150[0m, in [35mraise_mysql_exception[0m
+    raise errorclass(errno, errval)
+[1;35mpymysql.err.OperationalError[0m: [35m(1054, "Unknown column 'u.age' in 'field list'")[0m
+2026-04-15 17:26:45 | INFO     | GATv2:80 | 后台训练任务完成
+2026-04-15 20:58:33 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 20:58:33 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 20:58:33 | INFO     | GATv2:80 | ============================================================
+2026-04-15 20:58:33 | INFO     | GATv2:80 | 实验室智能算法服务启动中...
+2026-04-15 20:58:33 | INFO     | GATv2:80 | ============================================================
+2026-04-15 20:58:33 | INFO     | GATv2:80 | 正在初始化GATv2推荐器...
+2026-04-15 20:58:33 | INFO     | GATv2:80 | GATv2数据文件不存在，将在首次请求时加载
+2026-04-15 20:58:33 | INFO     | GATv2:80 | 正在初始化PPO调度器...
+2026-04-15 20:58:33 | INFO     | GATv2:80 | PPO模型文件不存在，将在首次请求时训练
+2026-04-15 20:58:33 | INFO     | GATv2:80 | ============================================================
+2026-04-15 20:58:33 | INFO     | GATv2:80 | 实验室智能算法服务启动完成！
+2026-04-15 20:58:33 | INFO     | GATv2:80 | API文档地址: http://0.0.0.0:8000/docs
+2026-04-15 20:58:33 | INFO     | GATv2:80 | ============================================================
+2026-04-15 21:07:20 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 21:07:20 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 21:07:20 | INFO     | GATv2:80 | ============================================================
+2026-04-15 21:07:20 | INFO     | GATv2:80 | 实验室智能算法服务启动中...
+2026-04-15 21:07:20 | INFO     | GATv2:80 | ============================================================
+2026-04-15 21:07:20 | INFO     | GATv2:80 | 正在初始化GATv2推荐器...
+2026-04-15 21:07:20 | INFO     | GATv2:80 | GATv2数据文件不存在，将在首次请求时加载
+2026-04-15 21:07:20 | INFO     | GATv2:80 | 正在初始化PPO调度器...
+2026-04-15 21:07:20 | WARNING  | GATv2:84 | 启动时初始化PPO调度器失败: module 'src.algorithms.ppo.scheduler' has no attribute 'data_exists'
+2026-04-15 21:07:20 | INFO     | GATv2:80 | 将在首次请求时初始化
+2026-04-15 21:07:20 | INFO     | GATv2:80 | ============================================================
+2026-04-15 21:07:20 | INFO     | GATv2:80 | 实验室智能算法服务启动完成！
+2026-04-15 21:07:20 | INFO     | GATv2:80 | API文档地址: http://0.0.0.0:8000/docs
+2026-04-15 21:07:20 | INFO     | GATv2:80 | ============================================================
+2026-04-15 21:08:49 | INFO     | GATv2:80 | 开始后台训练任务...
+2026-04-15 21:08:49 | INFO     | GATv2:80 | 正在初始化GATv2推荐器...
+2026-04-15 21:08:49 | INFO     | GATv2:80 | 开始从数据库加载图数据...
+2026-04-15 21:08:49 | INFO     | GATv2:80 | 加载用户数据...
+2026-04-15 21:08:49 | ERROR    | GATv2:88 | 数据库操作失败，已回滚: (1054, "Unknown column 'u.age' in 'field list'")
+2026-04-15 21:08:49 | ERROR    | GATv2:88 | 数据库连接失败: (1054, "Unknown column 'u.age' in 'field list'")
+2026-04-15 21:08:49 | ERROR    | GATv2:96 | 从数据库加载数据失败: (1054, "Unknown column 'u.age' in 'field list'")
+Traceback (most recent call last):
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\data_loader.py"[0m, line [35m38[0m, in [35mload_from_database[0m
+    [31mself._load_user_data[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\data_loader.py"[0m, line [35m72[0m, in [35m_load_user_data[0m
+    user_data = db.execute_query(sql, dict_cursor=True)
+  File [35m"D:\file\4\labreserve\algorithm\src\utils\database.py"[0m, line [35m79[0m, in [35mexecute_query[0m
+    [31mcursor.execute[0m[1;31m(sql, params or ())[0m
+    [31m~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\cursors.py"[0m, line [35m153[0m, in [35mexecute[0m
+    result = self._query(query)
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\cursors.py"[0m, line [35m322[0m, in [35m_query[0m
+    [31mconn.query[0m[1;31m(q)[0m
+    [31m~~~~~~~~~~[0m[1;31m^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m575[0m, in [35mquery[0m
+    self._affected_rows = [31mself._read_query_result[0m[1;31m(unbuffered=unbuffered)[0m
+                          [31m~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m826[0m, in [35m_read_query_result[0m
+    [31mresult.read[0m[1;31m()[0m
+    [31m~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m1203[0m, in [35mread[0m
+    first_packet = self.connection._read_packet()
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m782[0m, in [35m_read_packet[0m
+    [31mpacket.raise_for_error[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\protocol.py"[0m, line [35m219[0m, in [35mraise_for_error[0m
+    [31merr.raise_mysql_exception[0m[1;31m(self._data)[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\err.py"[0m, line [35m150[0m, in [35mraise_mysql_exception[0m
+    raise errorclass(errno, errval)
+[1;35mpymysql.err.OperationalError[0m: [35m(1054, "Unknown column 'u.age' in 'field list'")[0m
+2026-04-15 21:08:49 | ERROR    | GATv2:96 | GATv2推荐器初始化失败: (1054, "Unknown column 'u.age' in 'field list'")
+Traceback (most recent call last):
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\recommender.py"[0m, line [35m44[0m, in [35minitialize[0m
+    self.graph_data = [31mself.data_loader.load_from_database[0m[1;31m()[0m
+                      [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\data_loader.py"[0m, line [35m38[0m, in [35mload_from_database[0m
+    [31mself._load_user_data[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\data_loader.py"[0m, line [35m72[0m, in [35m_load_user_data[0m
+    user_data = db.execute_query(sql, dict_cursor=True)
+  File [35m"D:\file\4\labreserve\algorithm\src\utils\database.py"[0m, line [35m79[0m, in [35mexecute_query[0m
+    [31mcursor.execute[0m[1;31m(sql, params or ())[0m
+    [31m~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\cursors.py"[0m, line [35m153[0m, in [35mexecute[0m
+    result = self._query(query)
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\cursors.py"[0m, line [35m322[0m, in [35m_query[0m
+    [31mconn.query[0m[1;31m(q)[0m
+    [31m~~~~~~~~~~[0m[1;31m^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m575[0m, in [35mquery[0m
+    self._affected_rows = [31mself._read_query_result[0m[1;31m(unbuffered=unbuffered)[0m
+                          [31m~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m826[0m, in [35m_read_query_result[0m
+    [31mresult.read[0m[1;31m()[0m
+    [31m~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m1203[0m, in [35mread[0m
+    first_packet = self.connection._read_packet()
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m782[0m, in [35m_read_packet[0m
+    [31mpacket.raise_for_error[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\protocol.py"[0m, line [35m219[0m, in [35mraise_for_error[0m
+    [31merr.raise_mysql_exception[0m[1;31m(self._data)[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\err.py"[0m, line [35m150[0m, in [35mraise_mysql_exception[0m
+    raise errorclass(errno, errval)
+[1;35mpymysql.err.OperationalError[0m: [35m(1054, "Unknown column 'u.age' in 'field list'")[0m
+2026-04-15 21:08:49 | INFO     | GATv2:80 | 后台训练任务完成
+2026-04-15 21:16:53 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 21:16:53 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 21:16:53 | INFO     | GATv2:80 | ============================================================
+2026-04-15 21:16:53 | INFO     | GATv2:80 | 实验室智能算法服务启动中...
+2026-04-15 21:16:53 | INFO     | GATv2:80 | ============================================================
+2026-04-15 21:16:53 | INFO     | GATv2:80 | 正在初始化GATv2推荐器...
+2026-04-15 21:16:53 | INFO     | GATv2:80 | GATv2数据文件不存在，将在首次请求时加载
+2026-04-15 21:16:53 | INFO     | GATv2:80 | 正在初始化PPO调度器...
+2026-04-15 21:16:53 | INFO     | GATv2:80 | PPO调度器没有data_exists方法，将在首次请求时初始化
+2026-04-15 21:16:53 | INFO     | GATv2:80 | ============================================================
+2026-04-15 21:16:53 | INFO     | GATv2:80 | 实验室智能算法服务启动完成！
+2026-04-15 21:16:53 | INFO     | GATv2:80 | API文档地址: http://0.0.0.0:8000/docs
+2026-04-15 21:16:53 | INFO     | GATv2:80 | ============================================================
+2026-04-15 21:17:05 | INFO     | GATv2:80 | 开始后台训练任务...
+2026-04-15 21:17:05 | INFO     | GATv2:80 | 正在初始化GATv2推荐器...
+2026-04-15 21:17:05 | INFO     | GATv2:80 | 开始从数据库加载图数据...
+2026-04-15 21:17:05 | INFO     | GATv2:80 | 加载用户数据...
+2026-04-15 21:17:05 | INFO     | GATv2:80 | 加载设备数据...
+2026-04-15 21:17:05 | INFO     | GATv2:80 | 加载预约关系边数据...
+2026-04-15 21:17:05 | INFO     | GATv2:80 | 图数据加载完成: 用户数=2, 设备数=2, 边数=4
+2026-04-15 21:17:05 | INFO     | GATv2:80 | 训练新模型...
+2026-04-15 21:17:05 | ERROR    | GATv2:96 | GATv2推荐器初始化失败: 'typing.Union' object has no attribute '_name'
+Traceback (most recent call last):
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\recommender.py"[0m, line [35m60[0m, in [35minitialize[0m
+    self.model = [31mGATv2Model[0m[1;31m()[0m
+                 [31m~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\model.py"[0m, line [35m44[0m, in [35m__init__[0m
+    self.conv1 = [31mGATv2Conv[0m[1;31m([0m
+                 [31m~~~~~~~~~[0m[1;31m^[0m
+        [1;31min_channels=self.in_channels,[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    ...<3 lines>...
+        [1;31madd_self_loops=True[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\torch_geometric\nn\conv\gatv2_conv.py"[0m, line [35m149[0m, in [35m__init__[0m
+    [31msuper().__init__[0m[1;31m(node_dim=0, **kwargs)[0m
+    [31m~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\torch_geometric\nn\conv\message_passing.py"[0m, line [35m141[0m, in [35m__init__[0m
+    [31mself.inspector.inspect_signature[0m[1;31m(self.aggregate, exclude=[0, 'aggr'])[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\torch_geometric\inspector.py"[0m, line [35m118[0m, in [35minspect_signature[0m
+    type_repr=[31mself.type_repr[0m[1;31m(param_type)[0m,
+              [31m~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\torch_geometric\inspector.py"[0m, line [35m67[0m, in [35mtype_repr[0m
+    return type_repr(obj, self._globals)
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\torch_geometric\inspector.py"[0m, line [35m451[0m, in [35mtype_repr[0m
+    name = [1;31mobj._name[0m
+           [1;31m^^^^^^^^^[0m
+[1;35mAttributeError[0m: [35m'typing.Union' object has no attribute '_name'[0m
+2026-04-15 21:17:05 | INFO     | GATv2:80 | 后台训练任务完成
+2026-04-15 21:23:30 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 21:23:30 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 21:23:30 | INFO     | GATv2:80 | ============================================================
+2026-04-15 21:23:30 | INFO     | GATv2:80 | 实验室智能算法服务启动中...
+2026-04-15 21:23:30 | INFO     | GATv2:80 | ============================================================
+2026-04-15 21:23:30 | INFO     | GATv2:80 | 正在初始化GATv2推荐器...
+2026-04-15 21:23:30 | INFO     | GATv2:80 | GATv2模型文件不存在，将在首次请求时训练
+2026-04-15 21:23:30 | INFO     | GATv2:80 | 正在初始化PPO调度器...
+2026-04-15 21:23:30 | INFO     | GATv2:80 | PPO调度器没有data_exists方法，将在首次请求时初始化
+2026-04-15 21:23:30 | INFO     | GATv2:80 | ============================================================
+2026-04-15 21:23:30 | INFO     | GATv2:80 | 实验室智能算法服务启动完成！
+2026-04-15 21:23:30 | INFO     | GATv2:80 | API文档地址: http://0.0.0.0:8000/docs
+2026-04-15 21:23:30 | INFO     | GATv2:80 | ============================================================
+2026-04-15 21:23:44 | INFO     | GATv2:80 | 开始后台训练任务...
+2026-04-15 21:23:44 | INFO     | GATv2:80 | 正在初始化GATv2推荐器...
+2026-04-15 21:23:44 | INFO     | GATv2:80 | 开始从数据库加载图数据...
+2026-04-15 21:23:44 | INFO     | GATv2:80 | 加载用户数据...
+2026-04-15 21:23:44 | INFO     | GATv2:80 | 加载设备数据...
+2026-04-15 21:23:44 | INFO     | GATv2:80 | 加载预约关系边数据...
+2026-04-15 21:23:44 | INFO     | GATv2:80 | 图数据加载完成: 用户数=2, 设备数=2, 边数=4
+2026-04-15 21:23:44 | INFO     | GATv2:80 | 训练新模型...
+2026-04-15 21:23:44 | INFO     | GATv2:80 | GATv2模型初始化完成: in=8, hidden=16, out=4, heads=1
+2026-04-15 21:23:44 | INFO     | GATv2:80 | 训练器初始化完成，使用设备: cpu
+2026-04-15 21:23:44 | INFO     | GATv2:80 | 开始训练GATv2模型，总轮数: 100
+2026-04-15 21:23:44 | INFO     | GATv2:80 | Epoch 10/100, Loss: 0.170092 (Best: 0.166067 @ Epoch 7)
+2026-04-15 21:23:44 | INFO     | GATv2:80 | Epoch 20/100, Loss: 0.101713 (Best: 0.099697 @ Epoch 17)
+2026-04-15 21:23:44 | INFO     | GATv2:80 | Epoch 30/100, Loss: 0.090416 (Best: 0.090416 @ Epoch 30)
+2026-04-15 21:23:44 | INFO     | GATv2:80 | Epoch 40/100, Loss: 0.081135 (Best: 0.081135 @ Epoch 40)
+2026-04-15 21:23:44 | INFO     | GATv2:80 | Epoch 50/100, Loss: 0.072573 (Best: 0.072573 @ Epoch 50)
+2026-04-15 21:23:44 | INFO     | GATv2:80 | Epoch 60/100, Loss: 0.064301 (Best: 0.064301 @ Epoch 60)
+2026-04-15 21:23:44 | INFO     | GATv2:80 | Epoch 70/100, Loss: 0.055267 (Best: 0.055267 @ Epoch 70)
+2026-04-15 21:23:44 | INFO     | GATv2:80 | Epoch 80/100, Loss: 0.035012 (Best: 0.035012 @ Epoch 80)
+2026-04-15 21:23:44 | INFO     | GATv2:80 | Epoch 90/100, Loss: 0.009060 (Best: 0.009060 @ Epoch 90)
+2026-04-15 21:23:44 | INFO     | GATv2:80 | Epoch 100/100, Loss: 0.002183 (Best: 0.002183 @ Epoch 100)
+2026-04-15 21:23:44 | INFO     | GATv2:80 | 训练完成！最佳损失: 0.002183 @ Epoch 100
+2026-04-15 21:23:45 | INFO     | GATv2:80 | 模型已保存到: D:\file\4\labreserve\algorithm\models\gatv2_model.pth
+2026-04-15 21:23:45 | INFO     | GATv2:80 | 提取节点嵌入向量...
+2026-04-15 21:23:45 | INFO     | GATv2:80 | GATv2推荐器初始化成功！
+2026-04-15 21:23:45 | INFO     | GATv2:80 | 后台训练任务完成
+2026-04-15 21:25:29 | INFO     | GATv2:80 | 开始后台训练任务...
+2026-04-15 21:25:29 | INFO     | GATv2:80 | 开始重新训练GATv2模型...
+2026-04-15 21:25:29 | INFO     | GATv2:80 | 开始从数据库加载图数据...
+2026-04-15 21:25:29 | INFO     | GATv2:80 | 加载用户数据...
+2026-04-15 21:25:29 | INFO     | GATv2:80 | 加载设备数据...
+2026-04-15 21:25:29 | INFO     | GATv2:80 | 加载预约关系边数据...
+2026-04-15 21:25:29 | INFO     | GATv2:80 | 图数据加载完成: 用户数=2, 设备数=2, 边数=4
+2026-04-15 21:25:29 | INFO     | GATv2:80 | 开始训练GATv2模型，总轮数: 100
+2026-04-15 21:25:29 | INFO     | GATv2:80 | Epoch 10/100, Loss: 0.000995 (Best: 0.000995 @ Epoch 10)
+2026-04-15 21:25:29 | INFO     | GATv2:80 | Epoch 20/100, Loss: 0.000546 (Best: 0.000546 @ Epoch 20)
+2026-04-15 21:25:29 | INFO     | GATv2:80 | Epoch 30/100, Loss: 0.000363 (Best: 0.000363 @ Epoch 30)
+2026-04-15 21:25:29 | INFO     | GATv2:80 | Epoch 40/100, Loss: 0.000290 (Best: 0.000290 @ Epoch 40)
+2026-04-15 21:25:29 | INFO     | GATv2:80 | Epoch 50/100, Loss: 0.000241 (Best: 0.000241 @ Epoch 50)
+2026-04-15 21:25:29 | INFO     | GATv2:80 | Epoch 60/100, Loss: 0.000209 (Best: 0.000209 @ Epoch 60)
+2026-04-15 21:25:30 | INFO     | GATv2:80 | Epoch 70/100, Loss: 0.000186 (Best: 0.000186 @ Epoch 70)
+2026-04-15 21:25:30 | INFO     | GATv2:80 | Epoch 80/100, Loss: 0.000168 (Best: 0.000168 @ Epoch 80)
+2026-04-15 21:25:30 | INFO     | GATv2:80 | Epoch 90/100, Loss: 0.000154 (Best: 0.000154 @ Epoch 90)
+2026-04-15 21:25:30 | INFO     | GATv2:80 | Epoch 100/100, Loss: 0.000142 (Best: 0.000142 @ Epoch 100)
+2026-04-15 21:25:30 | INFO     | GATv2:80 | 训练完成！最佳损失: 0.000142 @ Epoch 100
+2026-04-15 21:25:30 | INFO     | GATv2:80 | 模型已保存到: D:\file\4\labreserve\algorithm\models\gatv2_model.pth
+2026-04-15 21:25:30 | INFO     | GATv2:80 | 提取节点嵌入向量...
+2026-04-15 21:25:30 | INFO     | GATv2:80 | 模型重新训练完成
+2026-04-15 21:25:30 | INFO     | GATv2:80 | 后台训练任务完成
+2026-04-15 21:34:06 | INFO     | GATv2:80 | 开始后台训练任务...
+2026-04-15 21:34:06 | INFO     | GATv2:80 | 开始重新训练GATv2模型...
+2026-04-15 21:34:06 | INFO     | GATv2:80 | 开始从数据库加载图数据...
+2026-04-15 21:34:06 | INFO     | GATv2:80 | 加载用户数据...
+2026-04-15 21:34:06 | INFO     | GATv2:80 | 加载设备数据...
+2026-04-15 21:34:07 | INFO     | GATv2:80 | 加载预约关系边数据...
+2026-04-15 21:34:07 | INFO     | GATv2:80 | 图数据加载完成: 用户数=2, 设备数=2, 边数=4
+2026-04-15 21:34:07 | INFO     | GATv2:80 | 开始训练GATv2模型，总轮数: 100
+2026-04-15 21:34:07 | INFO     | GATv2:80 | Epoch 10/100, Loss: 0.000133 (Best: 0.000133 @ Epoch 10)
+2026-04-15 21:34:07 | INFO     | GATv2:80 | Epoch 20/100, Loss: 0.000125 (Best: 0.000125 @ Epoch 20)
+2026-04-15 21:34:07 | INFO     | GATv2:80 | Epoch 30/100, Loss: 0.000118 (Best: 0.000118 @ Epoch 30)
+2026-04-15 21:34:07 | INFO     | GATv2:80 | Epoch 40/100, Loss: 0.000112 (Best: 0.000112 @ Epoch 40)
+2026-04-15 21:34:07 | INFO     | GATv2:80 | Epoch 50/100, Loss: 0.000107 (Best: 0.000107 @ Epoch 50)
+2026-04-15 21:34:07 | INFO     | GATv2:80 | Epoch 60/100, Loss: 0.000103 (Best: 0.000103 @ Epoch 60)
+2026-04-15 21:34:07 | INFO     | GATv2:80 | Epoch 70/100, Loss: 0.000099 (Best: 0.000099 @ Epoch 70)
+2026-04-15 21:34:07 | INFO     | GATv2:80 | Epoch 80/100, Loss: 0.000096 (Best: 0.000096 @ Epoch 80)
+2026-04-15 21:34:07 | INFO     | GATv2:80 | Epoch 90/100, Loss: 0.000093 (Best: 0.000093 @ Epoch 90)
+2026-04-15 21:34:07 | INFO     | GATv2:80 | Epoch 100/100, Loss: 0.000090 (Best: 0.000090 @ Epoch 100)
+2026-04-15 21:34:07 | INFO     | GATv2:80 | 训练完成！最佳损失: 0.000090 @ Epoch 100
+2026-04-15 21:34:07 | INFO     | GATv2:80 | 模型已保存到: D:\file\4\labreserve\algorithm\models\gatv2_model.pth
+2026-04-15 21:34:07 | INFO     | GATv2:80 | 提取节点嵌入向量...
+2026-04-15 21:34:07 | INFO     | GATv2:80 | 模型重新训练完成
+2026-04-15 21:34:07 | INFO     | GATv2:80 | 后台训练任务完成
+2026-04-15 21:36:50 | INFO     | GATv2:80 | 为用户 1 生成Top-5推荐...
+2026-04-15 21:36:50 | ERROR    | GATv2:88 | 数据库操作失败，已回滚: (1054, "Unknown column 'r.reserve_id' in 'field list'")
+2026-04-15 21:36:50 | ERROR    | GATv2:88 | 数据库连接失败: (1054, "Unknown column 'r.reserve_id' in 'field list'")
+2026-04-15 21:36:50 | ERROR    | GATv2:96 | 获取推荐失败: (1054, "Unknown column 'r.reserve_id' in 'field list'")
+Traceback (most recent call last):
+  File [35m"D:\file\4\labreserve\algorithm\src\api\routes\gat.py"[0m, line [35m105[0m, in [35mget_recommendation[0m
+    recommendations = recommender.recommend(
+        user_id=request.user_id,
+        top_k=request.top_k
+    )
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\recommender.py"[0m, line [35m181[0m, in [35mrecommend[0m
+    available_device_ids = self._get_available_devices(user_id)
+  File [35m"D:\file\4\labreserve\algorithm\src\algorithms\gatv2\recommender.py"[0m, line [35m133[0m, in [35m_get_available_devices[0m
+    results = db.execute_query(sql, tuple(params), dict_cursor=True)
+  File [35m"D:\file\4\labreserve\algorithm\src\utils\database.py"[0m, line [35m79[0m, in [35mexecute_query[0m
+    [31mcursor.execute[0m[1;31m(sql, params or ())[0m
+    [31m~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\cursors.py"[0m, line [35m153[0m, in [35mexecute[0m
+    result = self._query(query)
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\cursors.py"[0m, line [35m322[0m, in [35m_query[0m
+    [31mconn.query[0m[1;31m(q)[0m
+    [31m~~~~~~~~~~[0m[1;31m^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m575[0m, in [35mquery[0m
+    self._affected_rows = [31mself._read_query_result[0m[1;31m(unbuffered=unbuffered)[0m
+                          [31m~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m826[0m, in [35m_read_query_result[0m
+    [31mresult.read[0m[1;31m()[0m
+    [31m~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m1203[0m, in [35mread[0m
+    first_packet = self.connection._read_packet()
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\connections.py"[0m, line [35m782[0m, in [35m_read_packet[0m
+    [31mpacket.raise_for_error[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\protocol.py"[0m, line [35m219[0m, in [35mraise_for_error[0m
+    [31merr.raise_mysql_exception[0m[1;31m(self._data)[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\Python\Python 3.14.3\Lib\site-packages\pymysql\err.py"[0m, line [35m150[0m, in [35mraise_mysql_exception[0m
+    raise errorclass(errno, errval)
+[1;35mpymysql.err.OperationalError[0m: [35m(1054, "Unknown column 'r.reserve_id' in 'field list'")[0m
+2026-04-15 21:55:03 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 21:55:03 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 21:55:03 | INFO     | GATv2:80 | ============================================================
+2026-04-15 21:55:03 | INFO     | GATv2:80 | 实验室智能算法服务启动中...
+2026-04-15 21:55:03 | INFO     | GATv2:80 | ============================================================
+2026-04-15 21:55:03 | INFO     | GATv2:80 | 正在初始化GATv2推荐器...
+2026-04-15 21:55:03 | INFO     | GATv2:80 | 正在初始化GATv2推荐器...
+2026-04-15 21:55:03 | INFO     | GATv2:80 | 从文件加载图数据...
+2026-04-15 21:55:03 | INFO     | GATv2:80 | 从文件加载完成: 用户数=2, 设备数=2
+2026-04-15 21:55:03 | INFO     | GATv2:80 | 加载已训练的模型...
+2026-04-15 21:55:03 | INFO     | GATv2:80 | GATv2模型初始化完成: in=8, hidden=16, out=4, heads=1
+2026-04-15 21:55:03 | INFO     | GATv2:80 | 训练器初始化完成，使用设备: cpu
+2026-04-15 21:55:03 | INFO     | GATv2:80 | 模型已从 D:\file\4\labreserve\algorithm\models\gatv2_model.pth 加载
+2026-04-15 21:55:03 | INFO     | GATv2:80 | 提取节点嵌入向量...
+2026-04-15 21:55:03 | INFO     | GATv2:80 | GATv2推荐器初始化成功！
+2026-04-15 21:55:03 | INFO     | GATv2:80 | GATv2推荐器初始化成功！
+2026-04-15 21:55:03 | INFO     | GATv2:80 | 正在初始化PPO调度器...
+2026-04-15 21:55:03 | INFO     | GATv2:80 | PPO调度器没有data_exists方法，将在首次请求时初始化
+2026-04-15 21:55:03 | INFO     | GATv2:80 | ============================================================
+2026-04-15 21:55:03 | INFO     | GATv2:80 | 实验室智能算法服务启动完成！
+2026-04-15 21:55:03 | INFO     | GATv2:80 | API文档地址: http://0.0.0.0:8000/docs
+2026-04-15 21:55:03 | INFO     | GATv2:80 | ============================================================
+2026-04-15 22:52:15 | INFO     | GATv2:80 | 开始后台训练任务...
+2026-04-15 22:52:15 | INFO     | GATv2:80 | 开始重新训练GATv2模型...
+2026-04-15 22:52:15 | INFO     | GATv2:80 | 开始从数据库加载图数据...
+2026-04-15 22:52:15 | INFO     | GATv2:80 | 加载用户数据...
+2026-04-15 22:52:15 | INFO     | GATv2:80 | 加载设备数据...
+2026-04-15 22:52:15 | INFO     | GATv2:80 | 加载预约关系边数据...
+2026-04-15 22:52:15 | INFO     | GATv2:80 | 图数据加载完成: 用户数=2, 设备数=2, 边数=4
+2026-04-15 22:52:15 | INFO     | GATv2:80 | 开始训练GATv2模型，总轮数: 100
+2026-04-15 22:52:16 | INFO     | GATv2:80 | Epoch 10/100, Loss: 0.001345 (Best: 0.000090 @ Epoch 1)
+2026-04-15 22:52:16 | INFO     | GATv2:80 | Epoch 20/100, Loss: 0.000345 (Best: 0.000090 @ Epoch 1)
+2026-04-15 22:52:16 | INFO     | GATv2:80 | Epoch 30/100, Loss: 0.000187 (Best: 0.000090 @ Epoch 1)
+2026-04-15 22:52:16 | INFO     | GATv2:80 | Epoch 40/100, Loss: 0.000115 (Best: 0.000090 @ Epoch 1)
+2026-04-15 22:52:16 | INFO     | GATv2:80 | Epoch 50/100, Loss: 0.000091 (Best: 0.000086 @ Epoch 49)
+2026-04-15 22:52:16 | INFO     | GATv2:80 | Epoch 60/100, Loss: 0.000083 (Best: 0.000077 @ Epoch 58)
+2026-04-15 22:52:16 | INFO     | GATv2:80 | Epoch 70/100, Loss: 0.000075 (Best: 0.000072 @ Epoch 67)
+2026-04-15 22:52:16 | INFO     | GATv2:80 | Epoch 80/100, Loss: 0.000070 (Best: 0.000070 @ Epoch 80)
+2026-04-15 22:52:16 | INFO     | GATv2:80 | Epoch 90/100, Loss: 0.000069 (Best: 0.000069 @ Epoch 90)
+2026-04-15 22:52:16 | INFO     | GATv2:80 | Epoch 100/100, Loss: 0.000067 (Best: 0.000067 @ Epoch 100)
+2026-04-15 22:52:16 | INFO     | GATv2:80 | 训练完成！最佳损失: 0.000067 @ Epoch 100
+2026-04-15 22:52:16 | INFO     | GATv2:80 | 模型已保存到: D:\file\4\labreserve\algorithm\models\gatv2_model.pth
+2026-04-15 22:52:16 | INFO     | GATv2:80 | 提取节点嵌入向量...
+2026-04-15 22:52:16 | INFO     | GATv2:80 | 模型重新训练完成
+2026-04-15 22:52:16 | INFO     | GATv2:80 | 后台训练任务完成
+2026-04-15 22:52:56 | INFO     | GATv2:80 | 开始后台训练任务...
+2026-04-15 22:52:56 | INFO     | GATv2:80 | 开始重新训练GATv2模型...
+2026-04-15 22:52:56 | INFO     | GATv2:80 | 开始从数据库加载图数据...
+2026-04-15 22:52:56 | INFO     | GATv2:80 | 加载用户数据...
+2026-04-15 22:52:56 | INFO     | GATv2:80 | 加载设备数据...
+2026-04-15 22:52:56 | INFO     | GATv2:80 | 加载预约关系边数据...
+2026-04-15 22:52:56 | INFO     | GATv2:80 | 图数据加载完成: 用户数=2, 设备数=2, 边数=4
+2026-04-15 22:52:56 | INFO     | GATv2:80 | 开始训练GATv2模型，总轮数: 100
+2026-04-15 22:52:56 | INFO     | GATv2:80 | Epoch 10/100, Loss: 0.000066 (Best: 0.000066 @ Epoch 10)
+2026-04-15 22:52:56 | INFO     | GATv2:80 | Epoch 20/100, Loss: 0.000065 (Best: 0.000065 @ Epoch 20)
+2026-04-15 22:52:56 | INFO     | GATv2:80 | Epoch 30/100, Loss: 0.000064 (Best: 0.000064 @ Epoch 30)
+2026-04-15 22:52:56 | INFO     | GATv2:80 | Epoch 40/100, Loss: 0.000063 (Best: 0.000063 @ Epoch 40)
+2026-04-15 22:52:56 | INFO     | GATv2:80 | Epoch 50/100, Loss: 0.000062 (Best: 0.000062 @ Epoch 50)
+2026-04-15 22:52:56 | INFO     | GATv2:80 | Epoch 60/100, Loss: 0.000061 (Best: 0.000061 @ Epoch 60)
+2026-04-15 22:52:56 | INFO     | GATv2:80 | Epoch 70/100, Loss: 0.000060 (Best: 0.000060 @ Epoch 70)
+2026-04-15 22:52:56 | INFO     | GATv2:80 | Epoch 80/100, Loss: 0.000060 (Best: 0.000060 @ Epoch 80)
+2026-04-15 22:52:56 | INFO     | GATv2:80 | Epoch 90/100, Loss: 0.000059 (Best: 0.000059 @ Epoch 90)
+2026-04-15 22:52:57 | INFO     | GATv2:80 | Epoch 100/100, Loss: 0.000058 (Best: 0.000058 @ Epoch 100)
+2026-04-15 22:52:57 | INFO     | GATv2:80 | 训练完成！最佳损失: 0.000058 @ Epoch 100
+2026-04-15 22:52:57 | INFO     | GATv2:80 | 模型已保存到: D:\file\4\labreserve\algorithm\models\gatv2_model.pth
+2026-04-15 22:52:57 | INFO     | GATv2:80 | 提取节点嵌入向量...
+2026-04-15 22:52:57 | INFO     | GATv2:80 | 模型重新训练完成
+2026-04-15 22:52:57 | INFO     | GATv2:80 | 后台训练任务完成
+2026-04-15 23:00:15 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 23:00:15 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 23:00:15 | INFO     | GATv2:80 | ============================================================
+2026-04-15 23:00:15 | INFO     | GATv2:80 | 实验室智能算法服务启动中...
+2026-04-15 23:00:15 | INFO     | GATv2:80 | ============================================================
+2026-04-15 23:00:15 | INFO     | GATv2:80 | 正在初始化GATv2推荐器...
+2026-04-15 23:00:15 | INFO     | GATv2:80 | 正在初始化GATv2推荐器...
+2026-04-15 23:00:15 | INFO     | GATv2:80 | 从文件加载图数据...
+2026-04-15 23:00:15 | INFO     | GATv2:80 | 从文件加载完成: 用户数=2, 设备数=2
+2026-04-15 23:00:15 | INFO     | GATv2:80 | 加载已训练的模型...
+2026-04-15 23:00:16 | INFO     | GATv2:80 | GATv2模型初始化完成: in=8, hidden=16, out=4, heads=1
+2026-04-15 23:00:16 | INFO     | GATv2:80 | 训练器初始化完成，使用设备: cpu
+2026-04-15 23:00:16 | INFO     | GATv2:80 | 模型已从 D:\file\4\labreserve\algorithm\models\gatv2_model.pth 加载
+2026-04-15 23:00:16 | INFO     | GATv2:80 | 提取节点嵌入向量...
+2026-04-15 23:00:16 | INFO     | GATv2:80 | GATv2推荐器初始化成功！
+2026-04-15 23:00:16 | INFO     | GATv2:80 | GATv2推荐器初始化成功！
+2026-04-15 23:00:16 | INFO     | GATv2:80 | 正在初始化PPO调度器...
+2026-04-15 23:00:16 | INFO     | GATv2:80 | PPO调度器没有data_exists方法，将在首次请求时初始化
+2026-04-15 23:00:16 | INFO     | GATv2:80 | ============================================================
+2026-04-15 23:00:16 | INFO     | GATv2:80 | 实验室智能算法服务启动完成！
+2026-04-15 23:00:16 | INFO     | GATv2:80 | API文档地址: http://0.0.0.0:8000/docs
+2026-04-15 23:00:16 | INFO     | GATv2:80 | ============================================================
+2026-04-15 23:24:41 | INFO     | GATv2:80 | 开始后台训练任务...
+2026-04-15 23:24:41 | INFO     | GATv2:80 | 开始重新训练GATv2模型...
+2026-04-15 23:24:41 | INFO     | GATv2:80 | 开始从数据库加载图数据...
+2026-04-15 23:24:41 | INFO     | GATv2:80 | 加载用户数据...
+2026-04-15 23:24:41 | INFO     | GATv2:80 | 加载设备数据...
+2026-04-15 23:24:41 | INFO     | GATv2:80 | 加载预约关系边数据...
+2026-04-15 23:24:41 | INFO     | GATv2:80 | 图数据加载完成: 用户数=2, 设备数=2, 边数=4
+2026-04-15 23:24:41 | INFO     | GATv2:80 | 开始训练GATv2模型，总轮数: 100
+2026-04-15 23:24:41 | INFO     | GATv2:80 | Epoch 10/100, Loss: 0.001288 (Best: 0.000058 @ Epoch 1)
+2026-04-15 23:24:41 | INFO     | GATv2:80 | Epoch 20/100, Loss: 0.000467 (Best: 0.000058 @ Epoch 1)
+2026-04-15 23:24:41 | INFO     | GATv2:80 | Epoch 30/100, Loss: 0.000163 (Best: 0.000058 @ Epoch 1)
+2026-04-15 23:24:41 | INFO     | GATv2:80 | Epoch 40/100, Loss: 0.000112 (Best: 0.000058 @ Epoch 1)
+2026-04-15 23:24:41 | INFO     | GATv2:80 | Epoch 50/100, Loss: 0.000078 (Best: 0.000058 @ Epoch 1)
+2026-04-15 23:24:41 | INFO     | GATv2:80 | Epoch 60/100, Loss: 0.000065 (Best: 0.000058 @ Epoch 1)
+2026-04-15 23:24:41 | INFO     | GATv2:80 | Epoch 70/100, Loss: 0.000056 (Best: 0.000055 @ Epoch 66)
+2026-04-15 23:24:41 | INFO     | GATv2:80 | Epoch 80/100, Loss: 0.000054 (Best: 0.000053 @ Epoch 75)
+2026-04-15 23:24:41 | INFO     | GATv2:80 | Epoch 90/100, Loss: 0.000052 (Best: 0.000052 @ Epoch 90)
+2026-04-15 23:24:41 | INFO     | GATv2:80 | Epoch 100/100, Loss: 0.000052 (Best: 0.000052 @ Epoch 99)
+2026-04-15 23:24:41 | INFO     | GATv2:80 | 训练完成！最佳损失: 0.000052 @ Epoch 99
+2026-04-15 23:24:41 | INFO     | GATv2:80 | 模型已保存到: D:\file\4\labreserve\algorithm\models\gatv2_model.pth
+2026-04-15 23:24:41 | INFO     | GATv2:80 | 提取节点嵌入向量...
+2026-04-15 23:24:41 | INFO     | GATv2:80 | 模型重新训练完成
+2026-04-15 23:24:41 | INFO     | GATv2:80 | 后台训练任务完成
+2026-04-15 23:25:58 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 23:25:58 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 23:25:58 | INFO     | GATv2:80 | ============================================================
+2026-04-15 23:25:58 | INFO     | GATv2:80 | 实验室智能算法服务启动中...
+2026-04-15 23:25:58 | INFO     | GATv2:80 | ============================================================
+2026-04-15 23:25:58 | INFO     | GATv2:80 | 正在初始化GATv2推荐器...
+2026-04-15 23:25:58 | INFO     | GATv2:80 | 正在初始化GATv2推荐器...
+2026-04-15 23:25:58 | INFO     | GATv2:80 | 从文件加载图数据...
+2026-04-15 23:25:58 | INFO     | GATv2:80 | 从文件加载完成: 用户数=2, 设备数=2
+2026-04-15 23:25:58 | INFO     | GATv2:80 | 加载已训练的模型...
+2026-04-15 23:25:58 | INFO     | GATv2:80 | GATv2模型初始化完成: in=8, hidden=16, out=4, heads=1
+2026-04-15 23:25:58 | INFO     | GATv2:80 | 训练器初始化完成，使用设备: cpu
+2026-04-15 23:25:58 | INFO     | GATv2:80 | 模型已从 D:\file\4\labreserve\algorithm\models\gatv2_model.pth 加载
+2026-04-15 23:25:58 | INFO     | GATv2:80 | 提取节点嵌入向量...
+2026-04-15 23:25:58 | INFO     | GATv2:80 | GATv2推荐器初始化成功！
+2026-04-15 23:25:58 | INFO     | GATv2:80 | GATv2推荐器初始化成功！
+2026-04-15 23:25:58 | INFO     | GATv2:80 | 正在初始化PPO调度器...
+2026-04-15 23:25:58 | INFO     | GATv2:80 | PPO调度器没有data_exists方法，将在首次请求时初始化
+2026-04-15 23:25:58 | INFO     | GATv2:80 | ============================================================
+2026-04-15 23:25:58 | INFO     | GATv2:80 | 实验室智能算法服务启动完成！
+2026-04-15 23:25:58 | INFO     | GATv2:80 | API文档地址: http://0.0.0.0:8000/docs
+2026-04-15 23:25:58 | INFO     | GATv2:80 | ============================================================
+2026-04-15 23:26:57 | INFO     | GATv2:80 | 开始后台训练任务...
+2026-04-15 23:26:57 | INFO     | GATv2:80 | 开始重新训练GATv2模型...
+2026-04-15 23:26:57 | INFO     | GATv2:80 | 开始从数据库加载图数据...
+2026-04-15 23:26:57 | INFO     | GATv2:80 | 加载用户数据...
+2026-04-15 23:26:57 | INFO     | GATv2:80 | 加载设备数据...
+2026-04-15 23:26:57 | INFO     | GATv2:80 | 加载预约关系边数据...
+2026-04-15 23:26:57 | INFO     | GATv2:80 | 图数据加载完成: 用户数=2, 设备数=2, 边数=4
+2026-04-15 23:26:57 | INFO     | GATv2:80 | 开始训练GATv2模型，总轮数: 100
+2026-04-15 23:26:57 | INFO     | GATv2:80 | Epoch 10/100, Loss: 0.001056 (Best: 0.000052 @ Epoch 0)
+2026-04-15 23:26:57 | INFO     | GATv2:80 | Epoch 20/100, Loss: 0.001418 (Best: 0.000052 @ Epoch 0)
+2026-04-15 23:26:57 | INFO     | GATv2:80 | Epoch 30/100, Loss: 0.000293 (Best: 0.000052 @ Epoch 0)
+2026-04-15 23:26:57 | INFO     | GATv2:80 | Epoch 40/100, Loss: 0.000227 (Best: 0.000052 @ Epoch 0)
+2026-04-15 23:26:57 | INFO     | GATv2:80 | Epoch 50/100, Loss: 0.000089 (Best: 0.000052 @ Epoch 0)
+2026-04-15 23:26:57 | INFO     | GATv2:80 | Epoch 60/100, Loss: 0.000074 (Best: 0.000052 @ Epoch 0)
+2026-04-15 23:26:57 | INFO     | GATv2:80 | Epoch 70/100, Loss: 0.000057 (Best: 0.000052 @ Epoch 0)
+2026-04-15 23:26:57 | INFO     | GATv2:80 | Epoch 80/100, Loss: 0.000055 (Best: 0.000052 @ Epoch 0)
+2026-04-15 23:26:57 | INFO     | GATv2:80 | Epoch 90/100, Loss: 0.000054 (Best: 0.000052 @ Epoch 0)
+2026-04-15 23:26:58 | INFO     | GATv2:80 | Epoch 100/100, Loss: 0.000053 (Best: 0.000052 @ Epoch 0)
+2026-04-15 23:26:58 | INFO     | GATv2:80 | 训练完成！最佳损失: 0.000052 @ Epoch 0
+2026-04-15 23:26:58 | INFO     | GATv2:80 | 模型已保存到: D:\file\4\labreserve\algorithm\models\gatv2_model.pth
+2026-04-15 23:26:58 | INFO     | GATv2:80 | 提取节点嵌入向量...
+2026-04-15 23:26:58 | INFO     | GATv2:80 | 模型重新训练完成
+2026-04-15 23:26:58 | INFO     | GATv2:80 | 后台训练任务完成
+2026-04-15 23:35:02 | INFO     | GATv2:80 | PPO调度环境初始化完成
+2026-04-15 23:35:02 | INFO     | GATv2:80 | PPO智能调度器初始化完成
+2026-04-15 23:35:02 | INFO     | GATv2:80 | ============================================================
+2026-04-15 23:35:02 | INFO     | GATv2:80 | 实验室智能算法服务启动中...
+2026-04-15 23:35:02 | INFO     | GATv2:80 | ============================================================
+2026-04-15 23:35:02 | INFO     | GATv2:80 | 正在初始化GATv2推荐器...
+2026-04-15 23:35:02 | INFO     | GATv2:80 | 正在初始化GATv2推荐器...
+2026-04-15 23:35:02 | INFO     | GATv2:80 | 从文件加载图数据...
+2026-04-15 23:35:02 | INFO     | GATv2:80 | 从文件加载完成: 用户数=2, 设备数=2
+2026-04-15 23:35:02 | INFO     | GATv2:80 | 加载已训练的模型...
+2026-04-15 23:35:02 | INFO     | GATv2:80 | GATv2模型初始化完成: in=8, hidden=16, out=4, heads=1
+2026-04-15 23:35:02 | INFO     | GATv2:80 | 训练器初始化完成，使用设备: cpu
+2026-04-15 23:35:02 | INFO     | GATv2:80 | 模型已从 D:\file\4\labreserve\algorithm\models\gatv2_model.pth 加载
+2026-04-15 23:35:02 | INFO     | GATv2:80 | 提取节点嵌入向量...
+2026-04-15 23:35:02 | INFO     | GATv2:80 | GATv2推荐器初始化成功！
+2026-04-15 23:35:02 | INFO     | GATv2:80 | GATv2推荐器初始化成功！
+2026-04-15 23:35:02 | INFO     | GATv2:80 | 正在初始化PPO调度器...
+2026-04-15 23:35:02 | INFO     | GATv2:80 | PPO调度器没有data_exists方法，将在首次请求时初始化
+2026-04-15 23:35:02 | INFO     | GATv2:80 | ============================================================
+2026-04-15 23:35:02 | INFO     | GATv2:80 | 实验室智能算法服务启动完成！
+2026-04-15 23:35:02 | INFO     | GATv2:80 | API文档地址: http://0.0.0.0:8000/docs
+2026-04-15 23:35:02 | INFO     | GATv2:80 | ============================================================
+2026-04-15 23:35:09 | INFO     | GATv2:80 | 开始后台训练任务...
+2026-04-15 23:35:09 | INFO     | GATv2:80 | 开始重新训练GATv2模型...
+2026-04-15 23:35:09 | INFO     | GATv2:80 | 开始从数据库加载图数据...
+2026-04-15 23:35:09 | INFO     | GATv2:80 | 加载用户数据...
+2026-04-15 23:35:09 | INFO     | GATv2:80 | 加载设备数据...
+2026-04-15 23:35:09 | INFO     | GATv2:80 | 加载预约关系边数据...
+2026-04-15 23:35:09 | INFO     | GATv2:80 | 图数据加载完成: 用户数=2, 设备数=2, 边数=4
+2026-04-15 23:35:09 | INFO     | GATv2:80 | 开始训练GATv2模型，总轮数: 100
+2026-04-15 23:35:09 | INFO     | GATv2:80 | Epoch 10/100, Loss: 0.001356 (Best: 0.000052 @ Epoch 0)
+2026-04-15 23:35:09 | INFO     | GATv2:80 | Epoch 20/100, Loss: 0.000507 (Best: 0.000052 @ Epoch 0)
+2026-04-15 23:35:09 | INFO     | GATv2:80 | Epoch 30/100, Loss: 0.000416 (Best: 0.000052 @ Epoch 0)
+2026-04-15 23:35:09 | INFO     | GATv2:80 | Epoch 40/100, Loss: 0.000186 (Best: 0.000052 @ Epoch 0)
+2026-04-15 23:35:09 | INFO     | GATv2:80 | Epoch 50/100, Loss: 0.000090 (Best: 0.000052 @ Epoch 0)
+2026-04-15 23:35:10 | INFO     | GATv2:80 | Epoch 60/100, Loss: 0.000072 (Best: 0.000052 @ Epoch 0)
+2026-04-15 23:35:10 | INFO     | GATv2:80 | Epoch 70/100, Loss: 0.000056 (Best: 0.000052 @ Epoch 0)
+2026-04-15 23:35:10 | INFO     | GATv2:80 | Epoch 80/100, Loss: 0.000054 (Best: 0.000052 @ Epoch 0)
+2026-04-15 23:35:10 | INFO     | GATv2:80 | Epoch 90/100, Loss: 0.000051 (Best: 0.000051 @ Epoch 90)
+2026-04-15 23:35:10 | INFO     | GATv2:80 | Epoch 100/100, Loss: 0.000050 (Best: 0.000050 @ Epoch 100)
+2026-04-15 23:35:10 | INFO     | GATv2:80 | 训练完成！最佳损失: 0.000050 @ Epoch 100
+2026-04-15 23:35:10 | INFO     | GATv2:80 | 模型已保存到: D:\file\4\labreserve\algorithm\models\gatv2_model.pth
+2026-04-15 23:35:10 | INFO     | GATv2:80 | 提取节点嵌入向量...
+2026-04-15 23:35:10 | INFO     | GATv2:80 | 模型重新训练完成
+2026-04-15 23:35:10 | INFO     | GATv2:80 | 后台训练任务完成
+2026-04-15 23:42:07 | INFO     | GATv2:126 | PPO调度环境初始化完成
+2026-04-15 23:42:07 | INFO     | GATv2:126 | PPO智能调度器初始化完成
+2026-04-15 23:42:07 | INFO     | GATv2:126 | ============================================================
+2026-04-15 23:42:07 | INFO     | GATv2:126 | 实验室智能算法服务启动中...
+2026-04-15 23:42:07 | INFO     | GATv2:126 | ============================================================
+2026-04-15 23:42:07 | INFO     | GATv2:126 | 正在初始化GATv2推荐器...
+2026-04-15 23:42:07 | INFO     | GATv2:126 | 正在初始化GATv2推荐器...
+2026-04-15 23:42:07 | INFO     | GATv2:126 | 从文件加载图数据...
+2026-04-15 23:42:07 | INFO     | GATv2:126 | 从文件加载完成: 用户数=2, 设备数=2
+2026-04-15 23:42:07 | INFO     | GATv2:126 | 加载已训练的模型...
+2026-04-15 23:42:07 | INFO     | GATv2:126 | GATv2模型初始化完成: in=8, hidden=16, out=4, heads=1
+2026-04-15 23:42:07 | INFO     | GATv2:126 | 训练器初始化完成，使用设备: cpu
+2026-04-15 23:42:07 | INFO     | GATv2:126 | 模型已从 D:\file\4\labreserve\algorithm\models\gatv2_model.pth 加载
+2026-04-15 23:42:07 | INFO     | GATv2:126 | 提取节点嵌入向量...
+2026-04-15 23:42:07 | INFO     | GATv2:126 | GATv2推荐器初始化成功！
+2026-04-15 23:42:07 | INFO     | GATv2:126 | GATv2推荐器初始化成功！
+2026-04-15 23:42:07 | INFO     | GATv2:126 | 正在初始化PPO调度器...
+2026-04-15 23:42:07 | INFO     | GATv2:126 | PPO调度器没有data_exists方法，将在首次请求时初始化
+2026-04-15 23:42:07 | INFO     | GATv2:126 | ============================================================
+2026-04-15 23:42:07 | INFO     | GATv2:126 | 实验室智能算法服务启动完成！
+2026-04-15 23:42:07 | INFO     | GATv2:126 | API文档地址: http://0.0.0.0:8000/docs
+2026-04-15 23:42:07 | INFO     | GATv2:126 | ============================================================
+2026-04-15 23:42:28 | INFO     | GATv2:126 | 开始后台训练任务...
+2026-04-15 23:42:28 | INFO     | GATv2:126 | 开始重新训练GATv2模型...
+2026-04-15 23:42:28 | INFO     | GATv2:126 | 开始从数据库加载图数据...
+2026-04-15 23:42:28 | INFO     | GATv2:126 | 加载用户数据...
+2026-04-15 23:42:28 | INFO     | GATv2:126 | 加载设备数据...
+2026-04-15 23:42:28 | INFO     | GATv2:126 | 加载预约关系边数据...
+2026-04-15 23:42:28 | INFO     | GATv2:126 | 图数据加载完成: 用户数=2, 设备数=2, 边数=4
+2026-04-15 23:42:28 | INFO     | GATv2:126 | 开始训练GATv2模型，总轮数: 100
+2026-04-15 23:42:28 | INFO     | GATv2:126 | Epoch 10/100, Loss: 0.002198 (Best: 0.000050 @ Epoch 1)
+2026-04-15 23:42:28 | INFO     | GATv2:126 | Epoch 20/100, Loss: 0.000841 (Best: 0.000050 @ Epoch 1)
+2026-04-15 23:42:28 | INFO     | GATv2:126 | Epoch 30/100, Loss: 0.000353 (Best: 0.000050 @ Epoch 1)
+2026-04-15 23:42:28 | INFO     | GATv2:126 | Epoch 40/100, Loss: 0.000104 (Best: 0.000050 @ Epoch 1)
+2026-04-15 23:42:28 | INFO     | GATv2:126 | Epoch 50/100, Loss: 0.000094 (Best: 0.000050 @ Epoch 1)
+2026-04-15 23:42:28 | INFO     | GATv2:126 | Epoch 60/100, Loss: 0.000071 (Best: 0.000050 @ Epoch 1)
+2026-04-15 23:42:28 | INFO     | GATv2:126 | Epoch 70/100, Loss: 0.000061 (Best: 0.000050 @ Epoch 1)
+2026-04-15 23:42:28 | INFO     | GATv2:126 | Epoch 80/100, Loss: 0.000056 (Best: 0.000050 @ Epoch 1)
+2026-04-15 23:42:28 | INFO     | GATv2:126 | Epoch 90/100, Loss: 0.000053 (Best: 0.000050 @ Epoch 1)
+2026-04-15 23:42:28 | INFO     | GATv2:126 | Epoch 100/100, Loss: 0.000052 (Best: 0.000050 @ Epoch 1)
+2026-04-15 23:42:28 | INFO     | GATv2:126 | 训练完成！最佳损失: 0.000050 @ Epoch 1
+2026-04-15 23:42:29 | INFO     | GATv2:126 | 模型已保存到: D:\file\4\labreserve\algorithm\models\gatv2_model.pth
+2026-04-15 23:42:29 | INFO     | GATv2:126 | 提取节点嵌入向量...
+2026-04-15 23:42:29 | INFO     | GATv2:126 | 模型重新训练完成
+2026-04-15 23:42:29 | INFO     | GATv2:126 | 后台训练任务完成
+2026-04-15 23:42:55 | INFO     | GATv2:126 | 开始后台训练任务...
+2026-04-15 23:42:55 | INFO     | GATv2:126 | 开始重新训练GATv2模型...
+2026-04-15 23:42:55 | INFO     | GATv2:126 | 开始从数据库加载图数据...
+2026-04-15 23:42:55 | INFO     | GATv2:126 | 加载用户数据...
+2026-04-15 23:42:55 | INFO     | GATv2:126 | 加载设备数据...
+2026-04-15 23:42:55 | INFO     | GATv2:126 | 加载预约关系边数据...
+2026-04-15 23:42:55 | INFO     | GATv2:126 | 图数据加载完成: 用户数=2, 设备数=2, 边数=4
+2026-04-15 23:42:55 | INFO     | GATv2:126 | 开始训练GATv2模型，总轮数: 100
+2026-04-15 23:42:55 | INFO     | GATv2:126 | Epoch 10/100, Loss: 0.003005 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:42:56 | INFO     | GATv2:126 | Epoch 20/100, Loss: 0.000856 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:42:56 | INFO     | GATv2:126 | Epoch 30/100, Loss: 0.000449 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:42:56 | INFO     | GATv2:126 | Epoch 40/100, Loss: 0.000161 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:42:56 | INFO     | GATv2:126 | Epoch 50/100, Loss: 0.000118 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:42:56 | INFO     | GATv2:126 | Epoch 60/100, Loss: 0.000079 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:42:56 | INFO     | GATv2:126 | Epoch 70/100, Loss: 0.000060 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:42:56 | INFO     | GATv2:126 | Epoch 80/100, Loss: 0.000058 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:42:56 | INFO     | GATv2:126 | Epoch 90/100, Loss: 0.000056 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:42:56 | INFO     | GATv2:126 | Epoch 100/100, Loss: 0.000054 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:42:56 | INFO     | GATv2:126 | 训练完成！最佳损失: 0.000050 @ Epoch 0
+2026-04-15 23:42:56 | INFO     | GATv2:126 | 模型已保存到: D:\file\4\labreserve\algorithm\models\gatv2_model.pth
+2026-04-15 23:42:56 | INFO     | GATv2:126 | 提取节点嵌入向量...
+2026-04-15 23:42:56 | INFO     | GATv2:126 | 模型重新训练完成
+2026-04-15 23:42:56 | INFO     | GATv2:126 | 后台训练任务完成
+2026-04-15 23:44:01 | INFO     | GATv2:126 | 开始后台训练任务...
+2026-04-15 23:44:01 | INFO     | GATv2:126 | 开始重新训练GATv2模型...
+2026-04-15 23:44:01 | INFO     | GATv2:126 | 开始从数据库加载图数据...
+2026-04-15 23:44:01 | INFO     | GATv2:126 | 加载用户数据...
+2026-04-15 23:44:01 | INFO     | GATv2:126 | 加载设备数据...
+2026-04-15 23:44:01 | INFO     | GATv2:126 | 加载预约关系边数据...
+2026-04-15 23:44:02 | INFO     | GATv2:126 | 图数据加载完成: 用户数=2, 设备数=2, 边数=4
+2026-04-15 23:44:02 | INFO     | GATv2:126 | 开始训练GATv2模型，总轮数: 100
+2026-04-15 23:44:02 | INFO     | GATv2:126 | Epoch 10/100, Loss: 0.003154 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:44:02 | INFO     | GATv2:126 | Epoch 20/100, Loss: 0.000901 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:44:02 | INFO     | GATv2:126 | Epoch 30/100, Loss: 0.000479 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:44:02 | INFO     | GATv2:126 | Epoch 40/100, Loss: 0.000105 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:44:02 | INFO     | GATv2:126 | Epoch 50/100, Loss: 0.000141 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:44:02 | INFO     | GATv2:126 | Epoch 60/100, Loss: 0.000081 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:44:02 | INFO     | GATv2:126 | Epoch 70/100, Loss: 0.000067 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:44:02 | INFO     | GATv2:126 | Epoch 80/100, Loss: 0.000061 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:44:02 | INFO     | GATv2:126 | Epoch 90/100, Loss: 0.000058 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:44:02 | INFO     | GATv2:126 | Epoch 100/100, Loss: 0.000056 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:44:02 | INFO     | GATv2:126 | 训练完成！最佳损失: 0.000050 @ Epoch 0
+2026-04-15 23:44:02 | INFO     | GATv2:126 | 模型已保存到: D:\file\4\labreserve\algorithm\models\gatv2_model.pth
+2026-04-15 23:44:02 | INFO     | GATv2:126 | 提取节点嵌入向量...
+2026-04-15 23:44:02 | INFO     | GATv2:126 | 模型重新训练完成
+2026-04-15 23:44:02 | INFO     | GATv2:126 | 后台训练任务完成
+2026-04-15 23:56:07 | INFO     | GATv2:126 | PPO调度环境初始化完成
+2026-04-15 23:56:07 | INFO     | GATv2:126 | PPO智能调度器初始化完成
+2026-04-15 23:56:07 | INFO     | GATv2:126 | ============================================================
+2026-04-15 23:56:07 | INFO     | GATv2:126 | 实验室智能算法服务启动中...
+2026-04-15 23:56:07 | INFO     | GATv2:126 | ============================================================
+2026-04-15 23:56:07 | INFO     | GATv2:126 | 正在初始化GATv2推荐器...
+2026-04-15 23:56:07 | INFO     | GATv2:126 | 正在初始化GATv2推荐器...
+2026-04-15 23:56:07 | INFO     | GATv2:126 | 从文件加载图数据...
+2026-04-15 23:56:07 | INFO     | GATv2:126 | 从文件加载完成: 用户数=2, 设备数=2
+2026-04-15 23:56:07 | INFO     | GATv2:126 | 加载已训练的模型...
+2026-04-15 23:56:07 | INFO     | GATv2:126 | GATv2模型初始化完成: in=8, hidden=16, out=4, heads=1
+2026-04-15 23:56:07 | INFO     | GATv2:126 | 训练器初始化完成，使用设备: cpu
+2026-04-15 23:56:07 | INFO     | GATv2:126 | 模型已从 D:\file\4\labreserve\algorithm\models\gatv2_model.pth 加载
+2026-04-15 23:56:07 | INFO     | GATv2:126 | 提取节点嵌入向量...
+2026-04-15 23:56:07 | INFO     | GATv2:126 | GATv2推荐器初始化成功！
+2026-04-15 23:56:07 | INFO     | GATv2:126 | GATv2推荐器初始化成功！
+2026-04-15 23:56:07 | INFO     | GATv2:126 | 正在初始化PPO调度器...
+2026-04-15 23:56:07 | INFO     | GATv2:126 | PPO调度器没有data_exists方法，将在首次请求时初始化
+2026-04-15 23:56:07 | INFO     | GATv2:126 | ============================================================
+2026-04-15 23:56:07 | INFO     | GATv2:126 | 实验室智能算法服务启动完成！
+2026-04-15 23:56:07 | INFO     | GATv2:126 | API文档地址: http://0.0.0.0:8000/docs
+2026-04-15 23:56:07 | INFO     | GATv2:126 | ============================================================
+2026-04-15 23:56:15 | INFO     | GATv2:126 | 开始后台训练任务...
+2026-04-15 23:56:15 | INFO     | GATv2:126 | 开始重新训练GATv2模型...
+2026-04-15 23:56:15 | INFO     | GATv2:126 | 开始从数据库加载图数据...
+2026-04-15 23:56:15 | INFO     | GATv2:126 | 加载用户数据...
+2026-04-15 23:56:15 | INFO     | GATv2:126 | 加载设备数据...
+2026-04-15 23:56:15 | INFO     | GATv2:126 | 加载预约关系边数据...
+2026-04-15 23:56:15 | INFO     | GATv2:126 | 图数据加载完成: 用户数=2, 设备数=2, 边数=4
+2026-04-15 23:56:15 | INFO     | GATv2:126 | 开始训练GATv2模型，总轮数: 100
+2026-04-15 23:56:15 | INFO     | GATv2:126 | Epoch 10/100, Loss: 0.003192 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:56:15 | INFO     | GATv2:126 | Epoch 20/100, Loss: 0.000432 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:56:15 | INFO     | GATv2:126 | Epoch 30/100, Loss: 0.000169 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:56:15 | INFO     | GATv2:126 | Epoch 40/100, Loss: 0.000197 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:56:15 | INFO     | GATv2:126 | Epoch 50/100, Loss: 0.000071 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:56:15 | INFO     | GATv2:126 | Epoch 60/100, Loss: 0.000065 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:56:15 | INFO     | GATv2:126 | Epoch 70/100, Loss: 0.000055 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:56:15 | INFO     | GATv2:126 | Epoch 80/100, Loss: 0.000055 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:56:15 | INFO     | GATv2:126 | Epoch 90/100, Loss: 0.000053 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:56:15 | INFO     | GATv2:126 | Epoch 100/100, Loss: 0.000052 (Best: 0.000050 @ Epoch 0)
+2026-04-15 23:56:15 | INFO     | GATv2:126 | 训练完成！最佳损失: 0.000050 @ Epoch 0
+2026-04-15 23:56:16 | INFO     | GATv2:126 | 模型已保存到: D:\file\4\labreserve\algorithm\models\gatv2_model.pth
+2026-04-15 23:56:16 | INFO     | GATv2:126 | 提取节点嵌入向量...
+2026-04-15 23:56:16 | INFO     | GATv2:126 | 模型重新训练完成
+2026-04-15 23:56:16 | INFO     | GATv2:126 | 后台训练任务完成

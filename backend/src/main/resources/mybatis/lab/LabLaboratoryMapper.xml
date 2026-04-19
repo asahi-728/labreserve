@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.project.lab.mapper.LabLaboratoryMapper">
+    
+    <resultMap type="LabLaboratory" id="LabLaboratoryResult">
+        <result property="labId"    column="lab_id"    />
+        <result property="labName"    column="lab_name"    />
+        <result property="location"    column="location"    />
+        <result property="leader"    column="leader"    />
+        <result property="leaderPhone"    column="leader_phone"    />
+        <result property="openTime"    column="open_time"    />
+        <result property="status"    column="status"    />
+        <result property="createBy"    column="create_by"    />
+        <result property="createTime"    column="create_time"    />
+        <result property="updateBy"    column="update_by"    />
+        <result property="updateTime"    column="update_time"    />
+        <result property="remark"    column="remark"    />
+        <result property="closeTime"    column="close_time"    />
+    </resultMap>
+
+    <sql id="selectLabLaboratoryVo">
+        select lab_id, lab_name, location, leader, leader_phone, open_time, status, create_by, create_time, update_by, update_time, remark, close_time from lab_laboratory
+    </sql>
+
+    <select id="selectLabLaboratoryList" parameterType="LabLaboratory" resultMap="LabLaboratoryResult">
+        <include refid="selectLabLaboratoryVo"/>
+        <where>  
+            <if test="labName != null  and labName != ''"> and lab_name like concat('%', #{labName}, '%')</if>
+            <if test="location != null  and location != ''"> and location = #{location}</if>
+            <if test="leader != null  and leader != ''"> and leader = #{leader}</if>
+            <if test="leaderPhone != null  and leaderPhone != ''"> and leader_phone = #{leaderPhone}</if>
+            <if test="openTime != null "> and open_time = #{openTime}</if>
+            <if test="status != null  and status != ''"> and status = #{status}</if>
+            <if test="closeTime != null "> and close_time = #{closeTime}</if>
+        </where>
+    </select>
+    
+    <select id="selectLabLaboratoryByLabId" parameterType="Long" resultMap="LabLaboratoryResult">
+        <include refid="selectLabLaboratoryVo"/>
+        where lab_id = #{labId}
+    </select>
+
+    <insert id="insertLabLaboratory" parameterType="LabLaboratory" useGeneratedKeys="true" keyProperty="labId">
+        insert into lab_laboratory
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="labName != null and labName != ''">lab_name,</if>
+            <if test="location != null">location,</if>
+            <if test="leader != null">leader,</if>
+            <if test="leaderPhone != null">leader_phone,</if>
+            <if test="openTime != null">open_time,</if>
+            <if test="status != null">status,</if>
+            <if test="createBy != null">create_by,</if>
+            <if test="createTime != null">create_time,</if>
+            <if test="updateBy != null">update_by,</if>
+            <if test="updateTime != null">update_time,</if>
+            <if test="remark != null">remark,</if>
+            <if test="closeTime != null">close_time,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="labName != null and labName != ''">#{labName},</if>
+            <if test="location != null">#{location},</if>
+            <if test="leader != null">#{leader},</if>
+            <if test="leaderPhone != null">#{leaderPhone},</if>
+            <if test="openTime != null">#{openTime},</if>
+            <if test="status != null">#{status},</if>
+            <if test="createBy != null">#{createBy},</if>
+            <if test="createTime != null">#{createTime},</if>
+            <if test="updateBy != null">#{updateBy},</if>
+            <if test="updateTime != null">#{updateTime},</if>
+            <if test="remark != null">#{remark},</if>
+            <if test="closeTime != null">#{closeTime},</if>
+         </trim>
+    </insert>
+
+    <update id="updateLabLaboratory" parameterType="LabLaboratory">
+        update lab_laboratory
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="labName != null and labName != ''">lab_name = #{labName},</if>
+            <if test="location != null">location = #{location},</if>
+            <if test="leader != null">leader = #{leader},</if>
+            <if test="leaderPhone != null">leader_phone = #{leaderPhone},</if>
+            <if test="openTime != null">open_time = #{openTime},</if>
+            <if test="status != null">status = #{status},</if>
+            <if test="createBy != null">create_by = #{createBy},</if>
+            <if test="createTime != null">create_time = #{createTime},</if>
+            <if test="updateBy != null">update_by = #{updateBy},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+            <if test="remark != null">remark = #{remark},</if>
+            <if test="closeTime != null">close_time = #{closeTime},</if>
+        </trim>
+        where lab_id = #{labId}
+    </update>
+
+    <delete id="deleteLabLaboratoryByLabId" parameterType="Long">
+        delete from lab_laboratory where lab_id = #{labId}
+    </delete>
+
+    <delete id="deleteLabLaboratoryByLabIds" parameterType="String">
+        delete from lab_laboratory where lab_id in 
+        <foreach item="labId" collection="array" open="(" separator="," close=")">
+            #{labId}
+        </foreach>
+    </delete>
+</mapper>

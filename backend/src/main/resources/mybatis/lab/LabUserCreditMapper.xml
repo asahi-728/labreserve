@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.project.lab.mapper.LabUserCreditMapper">
+    
+    <resultMap type="LabUserCredit" id="LabUserCreditResult">
+        <result property="id"    column="id"    />
+        <result property="userId"    column="user_id"    />
+        <result property="creditScore"    column="credit_score"    />
+        <result property="violation"    column="violation"    />
+        <result property="onTime"    column="on_time"    />
+        <result property="cancel"    column="cancel"    />
+        <result property="updateTime"    column="update_time"    />
+    </resultMap>
+
+    <sql id="selectLabUserCreditVo">
+        select id, user_id, credit_score, violation, on_time, cancel, update_time from lab_user_credit
+    </sql>
+
+    <select id="selectLabUserCreditList" parameterType="LabUserCredit" resultMap="LabUserCreditResult">
+        <include refid="selectLabUserCreditVo"/>
+        <where>  
+            <if test="userId != null "> and user_id = #{userId}</if>
+            <if test="params.beginCreditScore != null and params.beginCreditScore != '' and params.endCreditScore != null and params.endCreditScore != ''"> and credit_score between #{params.beginCreditScore} and #{params.endCreditScore}</if>
+            <if test="params.beginViolation != null and params.beginViolation != '' and params.endViolation != null and params.endViolation != ''"> and violation between #{params.beginViolation} and #{params.endViolation}</if>
+            <if test="params.beginOnTime != null and params.beginOnTime != '' and params.endOnTime != null and params.endOnTime != ''"> and on_time between #{params.beginOnTime} and #{params.endOnTime}</if>
+            <if test="params.beginCancel != null and params.beginCancel != '' and params.endCancel != null and params.endCancel != ''"> and cancel between #{params.beginCancel} and #{params.endCancel}</if>
+        </where>
+    </select>
+    
+    <select id="selectLabUserCreditById" parameterType="Long" resultMap="LabUserCreditResult">
+        <include refid="selectLabUserCreditVo"/>
+        where id = #{id}
+    </select>
+
+    <select id="selectLabUserCreditByUserId" parameterType="Long" resultMap="LabUserCreditResult">
+        <include refid="selectLabUserCreditVo"/>
+        where user_id = #{userId}
+    </select>
+
+    <insert id="insertLabUserCredit" parameterType="LabUserCredit" useGeneratedKeys="true" keyProperty="id">
+        insert into lab_user_credit
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="userId != null">user_id,</if>
+            <if test="creditScore != null">credit_score,</if>
+            <if test="violation != null">violation,</if>
+            <if test="onTime != null">on_time,</if>
+            <if test="cancel != null">cancel,</if>
+            <if test="updateTime != null">update_time,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="userId != null">#{userId},</if>
+            <if test="creditScore != null">#{creditScore},</if>
+            <if test="violation != null">#{violation},</if>
+            <if test="onTime != null">#{onTime},</if>
+            <if test="cancel != null">#{cancel},</if>
+            <if test="updateTime != null">#{updateTime},</if>
+         </trim>
+    </insert>
+
+    <update id="updateLabUserCredit" parameterType="LabUserCredit">
+        update lab_user_credit
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="userId != null">user_id = #{userId},</if>
+            <if test="creditScore != null">credit_score = #{creditScore},</if>
+            <if test="violation != null">violation = #{violation},</if>
+            <if test="onTime != null">on_time = #{onTime},</if>
+            <if test="cancel != null">cancel = #{cancel},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteLabUserCreditById" parameterType="Long">
+        delete from lab_user_credit where id = #{id}
+    </delete>
+
+    <delete id="deleteLabUserCreditByIds" parameterType="String">
+        delete from lab_user_credit where id in 
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+</mapper>
